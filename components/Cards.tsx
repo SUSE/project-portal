@@ -42,7 +42,7 @@ export const ProjectCard = ({ name, description, tag, repositoryURL, documentati
       <a href="#" className="flex text-center align-middle text-secondary-light border-2 border-secondary-light px-2 text-xs font-bold">{tag}</a>
       <span className="flex flex-row gap-2 text-primary">
         {
-          repositoryURL?.length && (<a href={repositoryURL}> <GithubSVG className="w-4 h-4 fill-current" /></a>)
+          repositoryURL?.length && (<a href={`https:www.${repositoryURL}`} target="_blank" rel="noreferrer" > <GithubSVG className="w-4 h-4 fill-current" /></a>)
         }
         {
           documentationURL && (<a href={documentationURL}>

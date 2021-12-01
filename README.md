@@ -32,7 +32,3 @@ Project configuration can be found under `/db/project-info.js`. You'll need to f
 You can serve the applications a Server-Side render with `npm start`. This will build the Production Ready application.
 
 If you want to generate static files to serve as Static Site on Github Pages for example you should run `npm run static`. This will generate an `/out` folder with all the static files.
-
-## Preview
-
-<img style="float: right;" src="./preview.png">

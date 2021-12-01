@@ -1,9 +1,7 @@
-import { CloudSVG, TorchSVG, ContainerSVG, GithubSVG, TwitterSVG } from '@/assets/images'
-import AWS_LOGO from '@/assets/sponsors/aws.svg'
-import AZURE_LOOG from '@/assets/sponsors/azure.svg'
+import { GithubSVG, TwitterSVG } from '@/assets/images'
 
 export const PROJECT_CONFIGURATION = {
-  projectTitle: 'Project Name',
+  projectTitle: 'OpenSource Portal | SUSE',
   projectSubtitle: 'Open source projects',
   projectNavigation: {
     links: [
