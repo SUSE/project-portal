@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-
 import { DocumentationSVG, GithubSVG } from '@/assets/images'
 import { ProjectT } from '@/db/projects'
 import { motion } from 'framer-motion'
