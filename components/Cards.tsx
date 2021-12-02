@@ -19,7 +19,7 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
       <p className="text-xs font-bold text-gray-400">{description}</p>
     </div>
     <div className="flex flex-row justify-between">
-      <a href="#" className="text-suse-blue font-bold text-[10px] underline place-self-bottom">{href}</a>
+      <a href={href} target="_blank" className="text-suse-blue font-bold text-[10px] underline place-self-bottom" rel="noreferrer">{href}</a>
       <span className="flex flex-col gap-2 text-primary">
         {
           repositoryURL && (<a className="flex align-middle gap-1 font-bold hover:underline" href={repositoryURL}> <GithubSVG className="w-4 h-4 fill-current" /> <span className="text-[10px] place-self-center">Repository</span></a>)

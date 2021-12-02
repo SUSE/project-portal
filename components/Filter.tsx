@@ -39,7 +39,7 @@ export const Filter = () => {
   return <div className="flex flex-col gap-4">
     <input onChange={handleSearchFunction} className="border-b-2" type='text' name='search' id='' placeholder='Search' />
 
-    <span className="text-xl text-secondary-light font-bold">Filters:</span>
+    <span className="text-xl text-secondary-light font-bold">Filters: {PROJECTS.length}</span>
     <p className="text-xs">Categories <span className="text-xs text-gray-400">(allow multipple choises)</span></p>
 
     <div className="flex flex-col gap-2">

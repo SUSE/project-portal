@@ -30,7 +30,7 @@ export default function Home() {
           </div> */}
         </div>
 
-        <div className='grid grid-flow-row'>
+        <div className='grid grid-flow-col'>
           <ProdudlyOpenSource />
         </div>
       </main>
