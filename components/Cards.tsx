@@ -13,7 +13,6 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
     <div className="flex flex-col gap-4 w-full">
       <div className="flex items-center gap-2">
         <span className="w-8 h-8">
-          // eslint-disable-next-line @next/next/no-img-element
           <img src={`/featured_projects/${logo}`} width="32px" height="32px" alt={`${name} logo`} />
         </span>
         <span className="text-lg font-bold">{name}</span>
