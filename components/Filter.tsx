@@ -31,8 +31,14 @@ export const Filter = () => {
     }
   }
 
+  const handleSearchFunction = (e: { target: { value: string } }) => {
+    const result = PROJECTS.filter(ele => ele.name.toLocaleLowerCase().includes(e.target.value.toLocaleLowerCase()))
+    setProjects(result)
+  }
+
   return <div className="flex flex-col gap-4">
-    <p>Search project</p>
+    <input onChange={handleSearchFunction} className="border-b-2" type='text' name='search' id='' placeholder='Search' />
+
     <span className="text-xl text-secondary-light font-bold">Filters:</span>
     <p className="text-xs">Categories <span className="text-xs text-gray-400">(allow multipple choises)</span></p>
 

@@ -1,8 +1,9 @@
 import useStore from '@/store/main.store'
+import ReactPaginate from 'react-paginate';
 import { useEffect, useState } from 'react'
 import { ProjectCard } from './Cards'
 import { Filter } from './Filter'
-import ReactPaginate from 'react-paginate';
+import { Hiring } from './Hiring'
 
 const MAX_ITEMS = 12
 
@@ -28,9 +29,6 @@ export const AllProjects = () => {
 
   const handlePageClick = (event) => {
     const newOffset = (event.selected * MAX_ITEMS) % projects.length;
-    console.log(
-      `User requested page number ${event.selected}, which is offset ${newOffset}`
-    );
     setItemOffset(newOffset);
   };
 
@@ -47,7 +45,7 @@ export const AllProjects = () => {
         <div className='border-b-2 border-secondary-light py-4'>
           <span className='text-2xl font-medium'>Projects list</span>
         </div>
-        <div className="flex flex-col md:flex-row gap-8 mt-6">
+        <div className="flex flex-col md:flex-row gap-8 mt-6  pb-10 border-b-[20px] border-secondary-dark">
           {/* Sidebar */}
           <Filter />
 
@@ -66,14 +64,17 @@ export const AllProjects = () => {
                 activeClassName='bg-secondary-dark text-white px-2 rounded-sm'
                 nextLabel="Next"
                 onPageChange={handlePageClick}
-                pageRangeDisplayed={3}
+                // pageRangeDisplayed={3}
                 pageCount={pageCount}
                 previousLabel="Prev"
+                marginPagesDisplayed={2}
                 renderOnZeroPageCount={null}
+                forcePage={0}
               />}
             </div>
           </div>
         </div>
+        <Hiring />
       </div>
     </div>
   </div >

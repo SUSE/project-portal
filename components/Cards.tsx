@@ -43,7 +43,7 @@ export const ProjectCard = ({ name, description, tag, repositoryURL, documentati
       <p className="text-sm font-bold text-gray-400">{description}</p>
     </div>
     <div className="flex flex-row justify-between">
-      <a href="#" className="flex text-center align-middle text-secondary-light border-2 border-secondary-light px-2 text-xs font-bold">{tag}</a>
+      <span className="flex text-center align-middle bg-gray-100 text-gray-500 px-2 text-[10px]">{tag}</span>
       <span className="flex flex-row gap-2 text-primary">
         {
           repositoryURL?.length && (<a href={`https:www.${repositoryURL}`} target="_blank" rel="noreferrer" > <GithubSVG className="w-4 h-4 fill-current" /></a>)
