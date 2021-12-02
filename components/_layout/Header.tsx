@@ -1,6 +1,6 @@
 import { SuseLogoSVG } from '@/assets/images'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
-import { motion } from 'framer-motion'
+
 
 export const Header = () => {
   const { projectSubtitle } = PROJECT_CONFIGURATION

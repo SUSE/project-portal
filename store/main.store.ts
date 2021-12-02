@@ -1,13 +1,16 @@
+import { ProjectT } from '@/db/projects'
 import create from 'zustand'
 
 type State = {
-  members: number
-  update: (newValue: number) => void
+  projects: ProjectT[]
+  filtered: ProjectT[]
+  setProjects: (newValue: ProjectT[]) => void
 }
 
 export const useStore = create<State>((set) => ({
-  members: 10,
-  update: (newValue) => set(() => ({ members: newValue })),
+  projects: [],
+  filtered: [],
+  setProjects: (newValue) => set(() => ({ projects: newValue })),
 }))
 
 export default useStore

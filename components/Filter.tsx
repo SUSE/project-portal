@@ -1,17 +1,49 @@
-import { CATEGORIES } from '@/db/projects'
+import { useEffect, useState } from 'react'
+import { PROJECTS, CATEGORIES } from '@/db/projects'
+import useStore from '@/store/main.store'
+
 export const Filter = () => {
+  const { setProjects } = useStore(state => state)
+  const [categoryFilter, setCategoryFilter] = useState<string[]>([])
+
+  useEffect(() => {
+    if (PROJECTS && categoryFilter.length) {
+      const filtered = PROJECTS.map(ele => {
+        return categoryFilter.includes(ele.tag) ? ele : undefined
+      })
+
+      setProjects(filtered.filter(ele => ele !== undefined))
+    } else {
+      setProjects(PROJECTS)
+    }
+  }, [categoryFilter, setProjects])
+
+  const handleFilterCategories = (e: { target: { name: string; checked: boolean } }) => {
+    // Check if the element it's already part of the array
+    const isIncluded = categoryFilter?.includes(e.target.name)
+
+
+    // Remove item if already present
+    if (isIncluded) {
+      setCategoryFilter([...categoryFilter.filter(ele => ele !== e.target.name)])
+    } else {
+      if (e.target.checked) setCategoryFilter([...categoryFilter, e.target.name])
+    }
+  }
+
   return <div className="flex flex-col gap-4">
     <p>Search project</p>
-    <span>Filters:</span>
+    <span className="text-xl text-secondary-light font-bold">Filters:</span>
     <p className="text-xs">Categories <span className="text-xs text-gray-400">(allow multipple choises)</span></p>
 
     <div className="flex flex-col gap-2">
-      {CATEGORIES.map(category => {
-        return <span key={category} className="flex alig-top">
-          <input className="self-start" type='checkbox' name={category} id={category} />
-          <label className="capitalize ml-2" htmlFor={category}>{category}</label>
-        </span>
-      })}
+      {CATEGORIES
+        .map((category, i) => {
+          return <span key={i} className="flex content-start items-start gap-2">
+            <input onChange={handleFilterCategories} className="self-center" type='checkbox' name={category} id={category} />
+            <label className="capitalize font-medium" htmlFor={category}>{category}</label>
+          </span>
+        })}
     </div>
   </div>
 }

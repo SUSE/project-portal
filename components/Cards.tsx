@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import { DocumentationSVG, GithubSVG } from '@/assets/images'
 import { ProjectT } from '@/db/projects'
+import { motion } from 'framer-motion'
+import { motionListItems } from '@/assets/animations'
 
 export const FeaturedProjectCard = ({ color, logo, tag, name, description, href, repositoryURL, documentationURL }) => {
-  return <div className="relative flex flex-col gap-4 px-4 py-4 align-middle ring-2 ring-inset ring-gray-100">
+  return <motion.div initial='hidden'
+    animate='visible' variants={motionListItems} className="relative flex flex-col gap-4 px-4 py-4 align-middle ring-2 ring-inset ring-gray-100">
     <span className="absolute top-0 right-0 text-[10px] font-bold px-1 bg-gray-100 text-gray-400 uppercase">{tag}</span>
     <span className="absolute left-0 top-0 border-2 h-full bg-gray-200 uppercase" style={{ borderColor: `${color}` }}></span>
     <div className="flex flex-col gap-4 w-full">
@@ -29,11 +32,12 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
         }
       </span>
     </div>
-  </div>
+  </motion.div>
 }
 
 export const ProjectCard = ({ name, description, tag, repositoryURL, documentationURL }: ProjectT) => {
-  return <div className="flex flex-col gap-2 align-middle">
+  return <motion.div initial='hidden'
+    animate='visible' variants={motionListItems} className="flex flex-col gap-2 align-middle">
     <div className="flex flex-col gap-2 w-full">
       <span className="text-xl font-bold">{name}</span>
       <p className="text-sm font-bold text-gray-400">{description}</p>
@@ -51,5 +55,5 @@ export const ProjectCard = ({ name, description, tag, repositoryURL, documentati
         }
       </span>
     </div>
-  </div>
+  </motion.div>
 }
