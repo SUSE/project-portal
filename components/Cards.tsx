@@ -11,13 +11,13 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
     <div className="flex flex-col gap-4 w-full">
       <div className="flex items-center gap-2">
         <span className="w-8 h-8">
-          <img src={`/featured_projects/${logo}`} width="32px" height="32px" alt={`${name} logo`} />
+          <img src={`/${logo}`} width="32px" height="32px" alt={`${name} logo`} />
         </span>
         <span className="text-lg font-bold">{name}</span>
       </div>
       <p className="text-xs font-bold text-gray-400">{description}</p>
     </div>
-    <div className="flex flex-row justify-between">
+    <div className="flex flex-row justify-between place-content-end">
       <a href={href} target="_blank" className="text-suse-blue font-bold text-[10px] underline place-self-bottom" rel="noreferrer">{href}</a>
       <span className="flex flex-col gap-2 text-primary">
         {
