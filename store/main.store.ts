@@ -3,14 +3,16 @@ import create from 'zustand'
 
 type State = {
   projects: ProjectT[]
-  filtered: ProjectT[]
+  navPage: boolean
   setProjects: (newValue: ProjectT[]) => void
+  setNavPages: () => void
 }
 
-export const useStore = create<State>((set) => ({
+export const useStore = create<State>((set, get) => ({
   projects: [],
-  filtered: [],
+  navPage: false,
   setProjects: (newValue) => set(() => ({ projects: newValue })),
+  setNavPages: () => set(() => ({ navPage: !get().navPage })),
 }))
 
 export default useStore

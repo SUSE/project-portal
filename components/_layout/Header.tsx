@@ -13,7 +13,7 @@ export const Header = () => {
         {/* Main Header */}
         <div className='flex justify-end gap-3 items-center'>
         </div>
-        <div className='grid grid-row-2 md: gap-8 justify-between'>
+        <div className='grid grid-row-2 md:gap-8 justify-between'>
           <div className='grid gap-4'>
             <div className='flex flex-row items-center gap-4'>
               {/*eslint-disable-next-line @next/next/no-img-element */}

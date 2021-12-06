@@ -5,10 +5,10 @@ import { ProjectCard } from './Cards'
 import { Filter } from './Filter'
 import { Hiring } from './Hiring'
 
-const MAX_ITEMS = 12
+const MAX_ITEMS = 21
 
 export const AllProjects = () => {
-  const { projects } = useStore(state => state)
+  const { projects, navPage } = useStore(state => state)
 
   // Pagination
   const [currentItems, setCurrentItems] = useState(null);
@@ -17,15 +17,12 @@ export const AllProjects = () => {
 
   useEffect(() => {
     // Fetch items from another resources.
-    if (projects.length > MAX_ITEMS) {
-      const endOffset = itemOffset + MAX_ITEMS;
+    const endOffset = itemOffset + MAX_ITEMS;
 
-      setCurrentItems(projects.slice(itemOffset, endOffset));
-      setPageCount(Math.ceil(projects.length / MAX_ITEMS));
-    } else {
-      setCurrentItems(projects);
-    }
-  }, [itemOffset, projects]);
+    setCurrentItems(projects.slice(itemOffset, endOffset));
+    setPageCount(Math.ceil(projects.length / MAX_ITEMS));
+
+  }, [itemOffset, projects, navPage]);
 
   const handlePageClick = (event) => {
     const newOffset = (event.selected * MAX_ITEMS) % projects.length;
@@ -43,7 +40,7 @@ export const AllProjects = () => {
     <div className="relative mx-auto w-11/12 2xl:w-3/4 mt-4 ">
       <div className="flex flex-col bg-white mt-28 gap-4 p-8">
         <div className='border-b-2 border-secondary-light py-4'>
-          <span className='text-2xl font-medium'>Projects list</span>
+          <span className='text-2xl font-medium'>Projects list: { }</span>
         </div>
         <div className="flex flex-col md:flex-row gap-8 mt-6  pb-10 border-b-[20px] border-secondary-dark">
           {/* Sidebar */}
@@ -69,12 +66,12 @@ export const AllProjects = () => {
                 previousLabel="Prev"
                 marginPagesDisplayed={2}
                 renderOnZeroPageCount={null}
-                forcePage={0}
+                initialPage={navPage && 0}
               />}
             </div>
           </div>
         </div>
-        <Hiring />
+        {/* <Hiring /> */}
       </div>
     </div>
   </div >

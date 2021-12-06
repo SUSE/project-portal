@@ -115,7 +115,7 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
-    tag: 'ai/ml',
+    tag: 'AI/ML',
     name: 'FuseML',
     description: 'Lorem impsum doe john text hello',
     repositoryURL: 'fuseml.github.io',
@@ -411,7 +411,7 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
-    tag: 'ai/ml',
+    tag: 'AI/ML',
     name: 'Phoebe',
     description: 'Lorem impsum doe john text hello',
     repositoryURL: 'github.com/SUSE/phoebe/wiki',
