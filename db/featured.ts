@@ -11,7 +11,8 @@ export const FEATURED_PROJECTS = [
     description: 'Cloud-Native distributed block storage built on and for Kubernetes.',
     href: 'https://longhorn.io/',
     repositoryURL: 'https://github.com/longhorn/longhorn',
-    documentationURL: 'https://github.com/longhorn/longhorn',
+    twitterURL: '###',
+    documentationURL: '',
   },
   {
     color: '#0280BE',
@@ -21,6 +22,7 @@ export const FEATURED_PROJECTS = [
     description: 'Kubernetes on your desktop.',
     href: 'https://rancherdesktop.io/',
     repositoryURL: 'https://github.com/rancher-sandbox/rd',
+    twitterURL: '',
     documentationURL: '',
   },
   {
@@ -31,6 +33,7 @@ export const FEATURED_PROJECTS = [
     description: 'Open source hyperconverged infrastructure (HCI) software.',
     href: 'https://harvesterhci.io/',
     repositoryURL: 'https://github.com/rancher/harvester',
+    twitterURL: '',
     documentationURL: '',
   },
   {
@@ -41,6 +44,7 @@ export const FEATURED_PROJECTS = [
     description: 'The best tool to deploy and manage your enterprise Linux infrastructure, powered by Salt and Ansible',
     href: 'https://www.uyuni-project.org',
     repositoryURL: 'https://github.com/uyuni-project/uyuni',
+    twitterURL: 'https://twitter.com/UyuniProject',
     documentationURL: '',
   },
   {
@@ -51,6 +55,7 @@ export const FEATURED_PROJECTS = [
     description: 'Kubernetes admission control using WebAssembly (WASM).',
     href: 'https://kubewarden.io/',
     repositoryURL: 'https://github.com/kubewarden',
+    twitterURL: 'https://twitter.com/kubewarden',
     documentationURL: '',
   },
   {
@@ -61,6 +66,7 @@ export const FEATURED_PROJECTS = [
     description: 'A dependency-aware package manager built on Helm.',
     href: 'https://hypper.io/',
     repositoryURL: 'https://github.com/rancher-sandbox/hypper',
+    twitterURL: '',
     documentationURL: '',
   },
   {
@@ -71,6 +77,7 @@ export const FEATURED_PROJECTS = [
     description: 'An opinionated platform that runs on Kubernetes and takes you from code to URL in one step.',
     href: 'https://epinio.io/',
     repositoryURL: 'https://github.com/epinio',
+    twitterURL: '',
     documentationURL: '',
   },
   {
@@ -81,6 +88,7 @@ export const FEATURED_PROJECTS = [
     description: 'AI/ML-driven anomaly detection for Kubernetes.',
     href: 'https://opni.io/',
     repositoryURL: 'http://github.com/rancher/opni',
+    twitterURL: '',
     documentationURL: '',
   },
   {
@@ -91,6 +99,7 @@ export const FEATURED_PROJECTS = [
     description: 'An open cloud-native web console to manage OS-related tasks for SAP applications.',
     href: 'https://www.trento-project.io/',
     repositoryURL: 'https://github.com/trento-project/trento',
+    twitterURL: '',
     documentationURL: '',
   }
 ]

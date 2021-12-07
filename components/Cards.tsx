@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import { DocumentationSVG, GithubSVG, WebsiteSVG } from '@/assets/images'
+import { DocumentationSVG, GithubSVG, TwitterSVG, WebsiteSVG } from '@/assets/images'
 import { ProjectT } from '@/db/projects'
 import { motion } from 'framer-motion'
 import { motionListItems } from '@/assets/animations'
 
-export const FeaturedProjectCard = ({ color, logo, tag, name, description, href, repositoryURL, documentationURL }) => {
+export const FeaturedProjectCard = ({ color, logo, tag, name, description, href, repositoryURL, documentationURL, twitterURL }) => {
   return <motion.div initial='hidden'
     animate='visible' variants={motionListItems} className="relative grid gap-4 align-middle ring-2 ring-inset ring-gray-100">
     {/* <span className="absolute top-0 right-0 text-[10px] font-bold px-1 bg-gray-100 text-gray-400 capitalize">{tag}</span> */}
@@ -21,7 +21,7 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
       </div>
       <p className="text-xs font-bold text-gray-400">{description}</p>
     </div>
-    <div className="flex justify-center flex-row gap-20  bg-gray-100 p-2">
+    <div className="flex justify-center flex-row gap-10 md:gap-20 bg-gray-100 p-2">
       {
         href && <a href={href} target="_blank" className="group flex flex-col justify-center place-items-center align-middle gap-1 font-bold" rel="noreferrer">
           <WebsiteSVG className="w-5 h-5 fill-current text-gray-400 group-hover:text-primary" />
@@ -45,6 +45,14 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
           </span>
         </a>)
       }
+      {
+        twitterURL && (<a className="group flex flex-col justify-center place-items-center align-middle gap-1 font-bold" href={twitterURL}>
+          <TwitterSVG className="w-5 h-5 fill-current text-gray-400 group-hover:text-primary" />
+          <span className="text-[10px] place-self-center text-gray-500 group-hover:text-primary hover:underline hover:scale-105">
+            Twitter
+          </span>
+        </a>)
+      }
     </div>
   </motion.div>
 }
@@ -55,7 +63,7 @@ export const ProjectCard = ({ name, description, tag, repositoryURL, documentati
       <span className="text-xl font-bold">{name}</span>
       <p className="text-sm font-bold text-gray-400">{description}</p>
     </div>
-    <div className="flex flex-row justify-between">
+    <div className="flex flex-row justify-start gap-2">
       <span className="flex text-center align-middle bg-gray-100 text-gray-500 px-2 text-[10px] capitalize">{tag}</span>
       <span className="flex flex-row gap-2 text-primary">
         {
