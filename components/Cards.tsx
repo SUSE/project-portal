@@ -61,10 +61,11 @@ export const ProjectCard = ({ name, description, tag, repositoryURL, documentati
   return <motion.div variants={motionListItems} className="flex flex-col gap-2 align-middle">
     <div className="flex flex-col gap-2 w-full">
       <span className="text-xl font-bold">{name}</span>
+      <span className="flex place-self-start bg-gray-100 text-gray-500 px-2 text-[10px] capitalize">{tag}</span>
       <p className="text-sm font-bold text-gray-400">{description}</p>
     </div>
     <div className="flex flex-row justify-start gap-2">
-      <span className="flex text-center align-middle bg-gray-100 text-gray-500 px-2 text-[10px] capitalize">{tag}</span>
+
       <span className="flex flex-row gap-2 text-primary">
         {
           repositoryURL?.length && (<a href={`https:www.${repositoryURL}`} target="_blank" rel="noreferrer" > <GithubSVG className="w-4 h-4 fill-current" /></a>)

@@ -11,7 +11,7 @@ export const FEATURED_PROJECTS = [
     description: 'Cloud-Native distributed block storage built on and for Kubernetes.',
     href: 'https://longhorn.io/',
     repositoryURL: 'https://github.com/longhorn/longhorn',
-    twitterURL: '###',
+    twitterURL: '',
     documentationURL: '',
   },
   {
