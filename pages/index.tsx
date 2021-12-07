@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 import { FeaturedProject } from '@/components/FeaturedProjects'
 import ProdudlyOpenSource from '@/components/ProudlyOpenSource'
+import SUSEandRancher from '@/components/SUSEandRancher'
 // import { Ad } from '@/components/Ad'
 
 export default function Home() {
@@ -30,8 +31,9 @@ export default function Home() {
           </div> */}
         </div>
 
-        <div className='grid grid-flow-col'>
+        <div className='grid grid-cols-2 md:gap-20 align-items-center align-middle'>
           <ProdudlyOpenSource />
+          <SUSEandRancher />
         </div>
       </main>
     </div>
