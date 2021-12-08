@@ -21,7 +21,7 @@ export default function Home() {
         {/** 👀 Why section */}
         <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
           <div className='col-span-4'>
-            <p className='text-secondary-light font-bold text-3xl mb-6'>Featured Projects</p>
+            <h1 className='text-secondary-light font-bold text-4xl mb-14'>Featured Projects</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-10 ">
               <FeaturedProject />
             </div>
