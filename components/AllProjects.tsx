@@ -3,7 +3,6 @@ import ReactPaginate from 'react-paginate';
 import { useEffect, useState } from 'react'
 import { ProjectCard } from './Cards'
 import { Filter } from './Filter'
-import { Hiring } from './Hiring'
 
 const MAX_ITEMS = 21
 
@@ -29,20 +28,13 @@ export const AllProjects = () => {
     setItemOffset(newOffset);
   };
 
-  return <div className=" relative mx-auto w-full flex-grow">
-    <div className="absolute min-w-full h-72 bg-secondary-dark grid grid-flow-col ">
-      <div className="w-full h-full" style={{ backgroundImage: `url('./road.png')` }}>
-      </div>
-      <div className="text-white text-2xl font-bold mt-10 ml-6">
-
-      </div>
-    </div>
+  return <div className=" relative mx-auto w-full flex-grow bg-gray-100">
     <div className="relative mx-auto w-11/12 2xl:w-3/4 mt-4 ">
       <div className="flex flex-col bg-white mt-28 gap-4 p-8">
         <div className=' py-4'>
           <span className='text-4xl  text-secondary-light font-bold'>All projects</span>
         </div>
-        <div className="flex flex-col md:flex-row gap-8 mt-6  pb-10 border-b-[20px] border-secondary-dark">
+        <div className="flex flex-col md:flex-row gap-8 mt-6 pb-10">
           {/* Sidebar */}
           <Filter />
 

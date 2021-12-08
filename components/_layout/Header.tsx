@@ -1,12 +1,15 @@
 import { SuseLogoSVG } from '@/assets/images'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
-
+import { InfinityLine } from '@/components/IfiniteLine'
 
 export const Header = () => {
   const { projectSubtitle } = PROJECT_CONFIGURATION
 
   return (
     <div className='relative bg-secondary-dark text-white py-6'>
+      <div className='absolute -bottom-2 w-full'>
+        <InfinityLine />
+      </div>
       {/* Header content */}
 
       <div className='grid grid-flow-row md:grid-flow-row mx-auto w-11/12 2xl:w-3/4 items-center'>

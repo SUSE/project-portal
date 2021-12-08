@@ -59,10 +59,10 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
 }
 
 export const ProjectCard = ({ name, description, tag, repositoryURL, documentationURL }: ProjectT) => {
-  return <motion.div variants={motionListItems} className="flex flex-col gap-2 align-middle hover:cursor-pointer hover:bg-gray-50 p-2">
+  return <motion.div variants={motionListItems} className="flex flex-col gap-2 align-middle hover:cursor-pointer p-2">
     <a href={`https://www.${repositoryURL}`} target="_blank" rel="noreferrer" >
       <div className="flex flex-col gap-2 w-full">
-        <span className="text-xl font-bold">{name}</span>
+        <span className="text-xl font-bold hover:underline">{name}</span>
         <span className="flex place-self-start bg-gray-100 text-gray-500 px-2 text-[10px] capitalize">{tag}</span>
         <p className="text-sm font-bold text-gray-500">{description}</p>
       </div>

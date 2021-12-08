@@ -20,10 +20,22 @@ export default function Home() {
       <main className={'relative grid grid-flow-row gap-24 m-[22px]'}>
         {/** 👀 Why section */}
         <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
-          <div className='col-span-4'>
-            <h1 className='text-secondary-light font-bold text-4xl mb-14'>Featured Projects</h1>
-            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-10 ">
-              <FeaturedProject />
+          <div className='col-span-4 mt-4 text-secondary-dark'>
+            <h1 className='font-bold text-3xl mb-4'>Innovate Everywhere. SUSE Style.</h1>
+            <p>
+              SUSE engineers work closely with open source community members to build and refine the technologies that enable you to innovate everywhere.
+            </p>
+
+            <p>
+              From operating systems to developer automation tooling, from container runtimes to Kubernetes management platforms, we leverage these projects to create
+              fully supported, open solutions that address the challenges of today’s hybrid cloud, cloud-native, and edge environments.
+            </p>
+
+            <div className='mt-10'>
+              <h2 className='text-secondary-light font-bold text-2xl mb-6'>Featured Project</h2>
+              <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+                <FeaturedProject />
+              </div>
             </div>
           </div>
           {/* <div className='self-center'>
