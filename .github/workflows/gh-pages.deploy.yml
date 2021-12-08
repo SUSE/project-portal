@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-     env:
+    env:
       NEXT_PUBLIC_BASE_PATH: /project-portal
 
     strategy:
