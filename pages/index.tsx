@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 import { FeaturedProject } from '@/components/FeaturedProjects'
-import ProdudlyOpenSource from '@/components/ProudlyOpenSource'
-import SUSEandRancher from '@/components/SUSEandRancher'
+import { ProdudlyOpenSource, SUSEandRancher } from '@/components/ProudlyOpenSource'
+
 // import { Ad } from '@/components/Ad'
 
 export default function Home() {

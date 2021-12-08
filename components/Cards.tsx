@@ -3,6 +3,7 @@ import { DocumentationSVG, GithubSVG, TwitterSVG, WebsiteSVG } from '@/assets/im
 import { ProjectT } from '@/db/projects'
 import { motion } from 'framer-motion'
 import { motionListItems } from '@/assets/animations'
+import { PREFIX } from '@/utils/constants'
 
 export const FeaturedProjectCard = ({ color, logo, tag, name, description, href, repositoryURL, documentationURL, twitterURL }) => {
   return <motion.div initial='hidden'
@@ -12,7 +13,7 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
     <div className="flex flex-col gap-4 w-full px-4 py-4">
       <div className="flex items-start gap-2">
         <span className="w-16 h-w-16">
-          <img src={`/${logo}`} alt={`${name} logo`} />
+          <img src={`${PREFIX}/${logo}`} alt={`${name} logo`} />
         </span>
         <div className='flex flex-col'>
           <span className="text-lg font-bold">{name}</span>

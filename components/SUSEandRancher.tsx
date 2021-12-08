@@ -5,7 +5,7 @@ export const SUSEandRancher = () => {
     <div>
       <SUSEandRancherSVG className='w-64' />
       <p className='text-gray-800'>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus molestias porro eaque, perferendis incidunt hic dolorem provident inventore.
+        Join the SUSE & Rancher Community – learn and share with other cloud native enthusiasts.
       </p>
     </div>
   </div>
