@@ -15,10 +15,10 @@ export const Header = () => {
       <div className='grid grid-flow-row md:grid-flow-row mx-auto w-11/12 2xl:w-3/4 items-center'>
         {/* Main Header */}
         <div className='grid gap-4'>
-          <div className='flex flex-row items-center align-items-center align-middle gap-4'>
+          <div className='flex flex-row items-center align-items-center justify-between align-middle gap-4'>
             {/*eslint-disable-next-line @next/next/no-img-element */}
-            <span className='w-[120px]'> <SuseLogoSVG /></span>
-            <span className='text-xl font-light text-gray-200 border-l border-gray-200 px-4 place-self-center'>{projectSubtitle}</span>
+            <span className='w-[200px]'> <SuseLogoSVG /></span>
+            <span className='text-3xl font-medium text-gray-200 px-4 place-self-center'>{projectSubtitle}</span>
           </div>
         </div>
       </div>

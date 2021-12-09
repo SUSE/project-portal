@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { DocumentationSVG, GithubSVG, TwitterSVG, WebsiteSVG } from '@/assets/images'
+import { DocumentationSVG, ExternalLinkSVG, GithubSVG, TwitterSVG, WebsiteSVG } from '@/assets/images'
 import { ProjectT } from '@/db/projects'
 import { motion } from 'framer-motion'
 import { motionListItems } from '@/assets/animations'
@@ -13,10 +13,11 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
     <div className="flex flex-col gap-4 w-full px-4 py-4">
       <div className="flex items-start gap-2">
         <span className="w-16 h-w-16">
-          <img src={`${PREFIX}/${logo}`} alt={`${name} logo`} />
+          <img src={`${PREFIX}/featured_projects/${logo}`} alt={`${name} logo`} />
         </span>
         <div className='flex flex-col'>
           <span className="text-lg font-bold">{name}</span>
+
           <span className="place-self-start text-[10px] font-bold px-1 bg-gray-100 text-gray-400 capitalize">{tag}</span>
         </div>
       </div>
@@ -59,10 +60,16 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
 }
 
 export const ProjectCard = ({ name, description, tag, repositoryURL, documentationURL }: ProjectT) => {
-  return <motion.div variants={motionListItems} className="flex flex-col gap-2 align-middle hover:cursor-pointer p-2">
+  return <motion.div variants={motionListItems} className="group flex flex-col gap-2 align-middle hover:cursor-pointer p-2 hover:scale-105 transition-transform ">
     <a href={`https://www.${repositoryURL}`} target="_blank" rel="noreferrer" >
       <div className="flex flex-col gap-2 w-full">
-        <span className="text-xl font-bold hover:underline">{name}</span>
+
+        <span className="flex gap-1 items-center">
+          <span className="text-xl font-bold group-hover:underline">{name}</span>
+          <span className="hidden group-hover:flex" >
+            <ExternalLinkSVG className="w-4 h-4" />
+          </span>
+        </span>
         <span className="flex place-self-start bg-gray-100 text-gray-500 px-2 text-[10px] capitalize">{tag}</span>
         <p className="text-sm font-bold text-gray-500">{description}</p>
       </div>

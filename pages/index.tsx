@@ -21,12 +21,12 @@ export default function Home() {
         {/** 👀 Why section */}
         <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
           <div className='col-span-4 mt-4 text-secondary-dark'>
-            <h1 className='font-bold text-3xl mb-4'>Innovate Everywhere. SUSE Style.</h1>
-            <p>
+            <h1 className='font-extrabold text-3xl mb-4'>Innovate Everywhere. SUSE Style.</h1>
+            <p className='text-secondary-dark font-medium'>
               SUSE engineers work closely with open source community members to build and refine the technologies that enable you to innovate everywhere.
             </p>
 
-            <p>
+            <p className='mt-4 text-secondary-dark font-medium'>
               From operating systems to developer automation tooling, from container runtimes to Kubernetes management platforms, we leverage these projects to create
               fully supported, open solutions that address the challenges of today’s hybrid cloud, cloud-native, and edge environments.
             </p>
