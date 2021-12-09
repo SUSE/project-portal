@@ -20,7 +20,7 @@ export const PROJECTS = [
   {
     isEnable: true,
     tag: 'storage',
-    name: 'Auarium',
+    name: 'Aquarium',
     description: 'Lorem impsum doe john text hello lorem ipsum doe',
     repositoryURL: 'github.com/aquarist-labs/aquarium',
     documentationURL: '',
