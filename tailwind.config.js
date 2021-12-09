@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   mode: 'jit',
   purge: ['./public/**/*.html', './pages/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'],
@@ -9,12 +12,13 @@ module.exports = {
         primary: '#FF7C3F',
         'secondary-dark': '#0C322C',
         'secondary-light': '#30BA78',
-        'suse-blue': '#2251F5'
+        'secondary-lighter': '#AFEACD',
+        'suse-blue': '#2251F5',
+        'suse-gray': '#f7f7f7',
       },
     },
     fontFamily: {
-      body: ['"Poppins"', 'Arial', 'Helvetica'],
-      display: ['"Poppins"', 'Arial', 'Helvetica'],
+      sans: ['Poppins', ...defaultTheme.fontFamily.sans],
     },
   },
   variants: {
