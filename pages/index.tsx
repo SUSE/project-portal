@@ -20,8 +20,8 @@ export default function Home() {
       <main className={'relative grid grid-flow-row gap-24 m-[22px]'}>
         {/** 👀 Why section */}
         <div className='grid gap-4'>
-          <div className='col-span-4 text-secondary-dark '>
-            <div className='flex flex-col md:flex-row gap-5 md:gap-20 mt-16  2xl:w-9/12 mx-auto'>
+          <div className='col-span-4 text-secondary-dark0'>
+            <div className='flex flex-col md:flex-row gap-5 md:gap-20 2xl:w-9/12 mx-auto my-20'>
               <h1 className='self-center font-extrabold text-4xl mb-'>Innovate. <br /> Everywhere. <br /> SUSE Style.</h1>
               <div>
                 <p className='font-medium'>
