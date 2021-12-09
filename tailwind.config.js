@@ -13,7 +13,8 @@ module.exports = {
         'secondary-dark': '#0C322C',
         'secondary-light': '#30BA78',
         'secondary-lighter': '#AFEACD',
-        'suse-blue': '#2251F5'
+        'suse-blue': '#2251F5',
+        'suse-gray': '#f7f7f7',
       },
     },
     fontFamily: {

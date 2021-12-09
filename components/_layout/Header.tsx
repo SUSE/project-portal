@@ -12,7 +12,7 @@ export const Header = () => {
       </div>
       {/* Header content */}
 
-      <div className='grid grid-flow-row md:grid-flow-row mx-auto w-11/12 2xl:w-3/4 items-center'>
+      <div className='grid grid-flow-row md:grid-flow-row mx-auto w-[1400px] items-center'>
         {/* Main Header */}
         <div className='grid gap-4'>
           <div className='flex flex-row items-center align-items-center justify-between align-middle gap-4'>
