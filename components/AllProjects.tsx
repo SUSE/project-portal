@@ -32,7 +32,7 @@ export const AllProjects = () => {
     <div className="relative mx-auto max-w-[1400px] w-full  mt-4 ">
       <div className="flex flex-col bg-white mt-28 gap-4 p-8">
         <div className=' py-4'>
-          <span className='text-4xl  text-secondary-light font-bold'>All projects</span>
+          <span className='text-3xl text-secondary-light font-bold'>All projects</span>
         </div>
         <div className="flex flex-col md:flex-row gap-8 mt-6 pb-10">
           {/* Sidebar */}

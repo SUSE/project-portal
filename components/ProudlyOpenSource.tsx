@@ -11,8 +11,8 @@ export const ProdudlyOpenSource = () => {
       </div>
 
       <p className='text-gray-800 text-center'>
-        Open Source is not only about code at SUSE, it’s in our Genes.
-        The <a className="text-suse-blue underline font-bold" href='#' target='_blank'>SUSE Open Source Policy</a> defines our shared values and beliefs
+        Open Source is not only about code at SUSE, it’s in our Genes. <br />
+        The <a className="text-suse-blue underline font-bold" href='https://opensource.suse.com/suse-open-source-policy.html' target='_blank' rel="noreferrer">SUSE Open Source Policy</a> defines our shared values and beliefs
         about contributing to projects and participating in communities.
 
       </p>
@@ -24,7 +24,7 @@ export const ProdudlyOpenSource = () => {
 
 
 export const SUSEandRancher = () => {
-  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-start ">
+  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-center ">
     <div className="flex flex-col gap-2">
       {/* <h2 className="font-bold text-2xl text-secondary-light">
         SUSE & Rancher Open Source
@@ -35,7 +35,7 @@ export const SUSEandRancher = () => {
       <p className='text-gray-800 text-center'>
         Learn and share with other cloud native enthusiasts. <br />
 
-        <a className="text-suse-blue underline font-bold" href='#' target='_blank'>Join the SUSE & Rancher Community</a>
+        <a className="text-suse-blue underline font-bold" href='https://community.suse.com/' target='_blank' rel="noreferrer">Join the SUSE & Rancher Community</a>
       </p>
     </div>
     {/* <ProudlyOpenSVG className='w-64' /> */}

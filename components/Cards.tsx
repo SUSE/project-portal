@@ -21,7 +21,7 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
           <span className="place-self-start text-[10px] font-bold px-1 bg-gray-100 text-gray-400 capitalize">{tag}</span>
         </div>
       </div>
-      <p className="text-sm font-bold text-gray-500">{description}</p>
+      <p className="text-sm text-black">{description}</p>
     </div>
     <div className="flex justify-center content-center items-center flex-row gap-10 md:gap-20 bg-suse-gray p-2">
       {
@@ -71,7 +71,7 @@ export const ProjectCard = ({ name, description, tag, repositoryURL, documentati
           </span>
         </span>
         <span className="flex place-self-start bg-gray-100 text-gray-500 px-2 text-[10px] capitalize">{tag}</span>
-        <p className="text-sm font-bold text-gray-500">{description}</p>
+        <p className="text-sm text-black">{description}</p>
       </div>
       <div className="flex flex-row justify-start gap-2">
 
