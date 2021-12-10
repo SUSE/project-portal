@@ -1,31 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 537.1 113.4" style="enable-background:new 0 0 537.1 113.4;" xml:space="preserve">
-<style type="text/css">
+
+<svg:svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 537.1 113.4"
+   style="enable-background:new 0 0 537.1 113.4"
+   xml:space="preserve"
+   sodipodi:docname="uyuni.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg"><svg:defs
+   id="defs48">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</svg:defs><sodipodi:namedview
+   id="namedview46"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:current-layer="Layer_1" />
+<script /><svg:style
+   type="text/css"
+   id="style9">
 	.st0{fill:#25BBBF;}
 	.st1{fill:#2CE0E5;}
 	.st2{fill:#31F9FF;}
 	.st3{fill:#FFFFFF;}
 	.st4{fill:#299B98;}
 	.st5{fill:#0E7774;}
-</style>
-<g transform="translate(-6.39 -32.061)">
-	<path class="st0" d="M163,70.7V105h25.7V70.7h8.6v42.8h-42.8V70.7H163z"/>
-	<path class="st0" d="M257.2,113.6V96.4l-17.1-25.7h10.7l10.7,15l10.8-15h10.6l-17.1,25.7v17.1L257.2,113.6z"/>
-	<path class="st0" d="M334.3,70.7V105H360V70.7h8.6v42.8h-42.8V70.7H334.3z"/>
-	<path class="st0" d="M411.4,113.6V70.7h8.6l25.7,30.4V70.7h8.6v42.8h-8.6L420,84.1v29.4H411.4z"/>
-	<path class="st0" d="M522.8,70.7v42.8h-8.6V70.7H522.8z"/>
-	<path class="st1" d="M94.2,56.3V35h-46v38.8L94.2,56.3z"/>
-	<path class="st2" d="M48.2,35h-8.4l-31,53.7l39.5-15V35z"/>
-	<path class="st3" d="M48.2,113.6L48.2,113.6z"/>
-	<path class="st4" d="M110.6,50.1L101.9,35h-7.6v21.3L110.6,50.1z"/>
-	<path class="st1" d="M48.2,73.8l-39.5,15l39.5,24.8V73.8z"/>
-	<path class="st0" d="M48.2,113.6h46V56.3l-46,17.4L48.2,113.6z"/>
-	<path class="st5" d="M110.6,50.1l-16.3,6.2v57.2h24.3l14.3-24.8L110.6,50.1z"/>
-	<path class="st4" d="M94.2,142.5h7.6l16.7-28.9H94.2V142.5z"/>
-	<path class="st5" d="M48.3,113.6l46,28.9v-28.9H48.3z"/>
-	<path class="st4" d="M48.2,113.6v28.9h46L48.2,113.6L48.2,113.6z"/>
-	<path class="st0" d="M48.2,113.6L8.8,88.7l31,53.8h8.4V113.6L48.2,113.6z"/>
-</g>
-</svg>
+</svg:style>
+<svg:g
+   id="g157"
+   transform="matrix(0.95234144,0,0,0.95234144,24.611358,2.8637553)"
+   style="stroke-width:1.05004"><svg:path
+     class="st0"
+     d="m 156.61,38.639 v 34.3 h 25.7 v -34.3 h 8.6 v 42.8 h -42.8 v -42.8 z"
+     id="path11"
+     style="stroke-width:1.05004" /><svg:path
+     class="st0"
+     d="m 250.81,81.539 v -17.2 l -17.1,-25.7 h 10.7 l 10.7,15 10.8,-15 h 10.6 l -17.1,25.7 v 17.1 z"
+     id="path13"
+     style="stroke-width:1.05004" /><svg:path
+     class="st0"
+     d="m 327.91,38.639 v 34.3 h 25.7 v -34.3 h 8.6 v 42.8 h -42.8 v -42.8 z"
+     id="path15"
+     style="stroke-width:1.05004" /><svg:path
+     class="st0"
+     d="m 405.01,81.539 v -42.9 h 8.6 l 25.7,30.4 v -30.4 h 8.6 v 42.8 h -8.6 l -25.7,-29.4 v 29.4 h -8.6 z"
+     id="path17"
+     style="stroke-width:1.05004" /><svg:path
+     class="st0"
+     d="m 516.41,38.639 v 42.8 h -8.6 v -42.8 z"
+     id="path19"
+     style="stroke-width:1.05004" /></svg:g><svg:path
+   class="st1"
+   d="m 87.81,24.239 v -21.3 h -46 v 38.8 z"
+   id="path21" /><svg:path
+   class="st2"
+   d="m 41.81,2.939 h -8.4 l -31,53.7 39.5,-15 v -38.7 z"
+   id="path23" /><svg:path
+   class="st3"
+   d="M 41.81,81.539 Z"
+   id="path25" /><svg:path
+   class="st4"
+   d="m 104.21,18.039 -8.7,-15.1 h -7.6 v 21.3 z"
+   id="path27" /><svg:path
+   class="st1"
+   d="m 41.81,41.739 -39.5,15 39.5,24.8 z"
+   id="path29" /><svg:path
+   class="st0"
+   d="m 41.81,81.539 h 46 v -57.3 l -46,17.4 z"
+   id="path31" /><svg:path
+   class="st5"
+   d="m 104.21,18.039 -16.3,6.2 v 57.2 h 24.3 l 14.3,-24.8 z"
+   id="path33" /><svg:path
+   class="st4"
+   d="m 87.81,110.439 h 7.6 l 16.7,-28.9 h -24.3 z"
+   id="path35" /><svg:path
+   class="st5"
+   d="m 41.91,81.539 46,28.9 v -28.9 z"
+   id="path37" /><svg:path
+   class="st4"
+   d="m 41.81,81.539 v 28.9 h 46 z"
+   id="path39" /><svg:path
+   class="st0"
+   d="m 41.81,81.539 -39.4,-24.9 31,53.8 h 8.4 z"
+   id="path41" />
+</svg:svg>
