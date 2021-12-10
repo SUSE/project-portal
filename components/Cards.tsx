@@ -12,14 +12,14 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
     <span className="absolute left-0 top-0 border-2 h-full uppercase" style={{ borderColor: `${color}` }}></span>
     <div className="flex flex-col gap-4 w-full px-4 py-4">
       <div className="flex items-start gap-2">
-        <span className="w-16 h-w-16">
+        <span className="w-[180px]">
           <img src={`${PREFIX}/featured_projects/${logo}`} alt={`${name} logo`} />
         </span>
-        <div className='flex flex-col'>
+        {/* <div className='flex flex-col'>
           <span className="text-lg font-bold">{name}</span>
 
-          <span className="place-self-start text-[10px] font-bold px-1 bg-gray-100 text-gray-400 capitalize">{tag}</span>
-        </div>
+        </div> */}
+        <span className="absolute top-0 right-0 place-self-start text-[10px] font-bold px-2 py-1 bg-gray-100 text-gray-400 capitalize">{tag}</span>
       </div>
       <p className="text-sm text-black">{description}</p>
     </div>
