@@ -24,7 +24,7 @@ export default function Home() {
             <div className='flex flex-col md:flex-row gap-5 md:gap-10 2xl:w-9/12 mx-auto my-20'>
               <h1 className='w-1/4 leading-tight place-items-center font-extrabold text-4xl text-right '>Innovate <br /> Everywhere. <br /> SUSE Style.</h1>
               <div className='w-4/6'>
-                <p className='font-medium'>
+                <p className='font-medium mt-2'>
                   SUSE engineers work closely with open source community members to build and refine the technologies that enable you to innovate everywhere.
                 </p>
 
