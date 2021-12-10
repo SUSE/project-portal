@@ -33,7 +33,7 @@ export const SUSEandRancher = () => {
         <SUSEandRancherSVG />
       </span>
       <p className='text-gray-800 text-center'>
-        Learn and share with other cloud native enthusiasts. <br />
+        Ask questions and learn more about these projects in our community. <br />
 
         <a className="text-suse-blue underline font-bold" href='https://community.suse.com/' target='_blank' rel="noreferrer">Join the SUSE & Rancher Community</a>
       </p>
