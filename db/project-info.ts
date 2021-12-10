@@ -1,8 +1,8 @@
 import { FacebookSVG, LinkedinSVG, TwitterSVG } from '@/assets/images'
 
 export const PROJECT_CONFIGURATION = {
-  projectTitle: 'OpenSource Portal | SUSE',
-  projectSubtitle: 'SUSE Open Source Projects',
+  projectTitle: 'Open Source Project Portal | SUSE',
+  projectSubtitle: 'Open Source Projects',
   projectNavigation: {
     social: [
       {
