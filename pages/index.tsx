@@ -36,7 +36,7 @@ export default function Home() {
             </div>
 
             <div className='mt-10'>
-              <h2 className='text-secondary-light font-bold text-3xl mb-6'>Featured Project</h2>
+              <h2 className='text-secondary-light font-bold text-3xl mb-6'>Featured Projects</h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
                 <FeaturedProject />
               </div>
