@@ -3,8 +3,7 @@ import ReactPaginate from 'react-paginate';
 import { useEffect, useState } from 'react'
 import { ProjectCard } from './Cards'
 import { Filter } from './Filter'
-
-const MAX_ITEMS = 21
+import { MAX_ITEMS } from '@/utils/constants';
 
 export const AllProjects = () => {
   const { projects, navPage } = useStore(state => state)
@@ -23,7 +22,7 @@ export const AllProjects = () => {
 
   }, [itemOffset, projects, navPage]);
 
-  const handlePageClick = (event) => {
+  const handlePageClick = (event: { selected: number; }) => {
     const newOffset = (event.selected * MAX_ITEMS) % projects.length;
     setItemOffset(newOffset);
   };
@@ -32,7 +31,7 @@ export const AllProjects = () => {
     <div className="relative mx-auto max-w-[1400px] w-full  mt-4 ">
       <div className="flex flex-col bg-white mt-28 gap-4 p-8">
         <div className=' py-4'>
-          <span className='text-3xl text-secondary-light font-bold'>All projects</span>
+          <span className='text-3xl text-black font-medium'>All projects</span>
         </div>
         <div className="flex flex-col md:flex-row gap-8 mt-6 pb-10">
           {/* Sidebar */}
@@ -63,7 +62,6 @@ export const AllProjects = () => {
             </div>
           </div>
         </div>
-        {/* <Hiring /> */}
       </div>
     </div>
   </div >

@@ -21,9 +21,9 @@ export default function Home() {
         {/** 👀 Why section */}
         <div className='grid gap-4'>
           <div className='col-span-4 text-secondary-dark0'>
-            <div className='flex flex-col md:flex-row gap-5 md:gap-10 2xl:w-9/12 mx-auto my-20'>
-              <h1 className='w-1/4 leading-tight place-items-center font-extrabold text-4xl text-right '>Innovate <br /> Everywhere. <br /> SUSE Style.</h1>
-              <div className='w-4/6'>
+            <div className='flex flex-col md:flex-row gap-5 md:gap-10 my-20'>
+              <h1 className='w-1/4 leading-tight place-items-center font-medium text-4xl'>Innovate Everywhere</h1>
+              <div className=''>
                 <p className='font-medium mt-2'>
                   SUSE engineers work closely with open source community members to build and refine the technologies that enable you to innovate everywhere.
                 </p>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
 
             <div className='mt-10'>
-              <h2 className='text-secondary-light font-bold text-3xl mb-6'>Featured Projects</h2>
+              <h2 className='text-black font-medium text-3xl mb-6'>Featured Projects</h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
                 <FeaturedProject />
               </div>
@@ -45,13 +45,13 @@ export default function Home() {
           {/* <div className='self-center'>
             <Ad />
           </div> */}
-        </div>
+        </div >
 
-        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 mb-20 align-items-center align-middle'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-32 px-20 mb-20 align-items-center align-middle'>
           <ProdudlyOpenSource />
           <SUSEandRancher />
         </div>
-      </main>
-    </div>
+      </main >
+    </div >
   )
 }
