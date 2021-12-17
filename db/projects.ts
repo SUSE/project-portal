@@ -14,7 +14,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'aliyun-img-utils',
     description: 'Command line utility and API for publishing images in the Aliyun Cloud',
-    repositoryURL: 'github.com/SUSE-Enceladus/aliyun-img-utils',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/aliyun-img-utils',
     documentationURL: '#',
   },
   {
@@ -22,7 +22,7 @@ export const PROJECTS = [
     tag: 'storage',
     name: 'Aquarium',
     description: 'Build rock-solid easy-to-use Ceph applications',
-    repositoryURL: 'github.com/aquarist-labs/aquarium',
+    repositoryURL: 'https://github.com/aquarist-labs/aquarium',
     documentationURL: '',
   },
   {
@@ -30,7 +30,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'AutoK3s',
     description: 'Kubernetes offering to replace the "full-fat" K8s',
-    repositoryURL: 'github.com/cnrancher/autok3s',
+    repositoryURL: 'https://github.com/cnrancher/autok3s',
     documentationURL: '',
   },
   {
@@ -38,7 +38,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'azuremetadata',
     description: 'Collect metadata for an instance in Azure',
-    repositoryURL: 'github.com/SUSE-Enceladus/azuremetadata',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/azuremetadata',
     documentationURL: '',
   },
   {
@@ -46,7 +46,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'blue-horizon',
     description: 'Web-based UI for terraforming the public cloud',
-    repositoryURL: 'github.com/SUSE-Enceladus/blue-horizon',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/blue-horizon',
     documentationURL: '',
   },
   {
@@ -54,7 +54,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'Cavil',
     description: 'The legal review app used by SUSE Lawyers',
-    repositoryURL: 'github.com/openSUSE/cavil',
+    repositoryURL: 'https://github.com/openSUSE/cavil',
     documentationURL: '',
   },
   {
@@ -62,7 +62,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Combustion',
     description: 'A dracut module which runs a user provided script on first boot',
-    repositoryURL: 'en.opensuse.org/Portal:MicroOS/Combustion',
+    repositoryURL: 'https://en.opensuse.org/Portal:MicroOS/Combustion',
     documentationURL: '',
   },
  // {
@@ -78,7 +78,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'cscreen',
     description: 'Run multiple consoles in one screen session',
-    repositoryURL: 'github.com/openSUSE/cscreen',
+    repositoryURL: 'https://github.com/openSUSE/cscreen',
     documentationURL: '',
   },
   {
@@ -86,7 +86,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'ec2metadata',
     description: 'Collect metadata for an instance in an Amazon EC2 guest instance',
-    repositoryURL: 'github.com/SUSE-Enceladus/ec2metadata',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/ec2metadata',
     documentationURL: '',
   },
   {
@@ -94,7 +94,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'ec2imgutils',
     description: 'A command line utility to deprecate images in Amazon EC2',
-    repositoryURL: 'github.com/SUSE-Enceladus/ec2imgutils	',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/ec2imgutils	',
     documentationURL: '',
   },
   {
@@ -102,7 +102,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'Epinio',
     description: 'Application development engine for Kubernetes',
-    repositoryURL: 'epinio.io',
+    repositoryURL: 'https://epinio.io',
     documentationURL: '',
   },
   {
@@ -110,7 +110,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Fleet',
     description: 'A GitOps container management and deployment engine',
-    repositoryURL: 'fleet.rancher.io',
+    repositoryURL: 'https://fleet.rancher.io',
     documentationURL: '',
   },
   {
@@ -118,7 +118,7 @@ export const PROJECTS = [
     tag: 'AI/ML',
     name: 'FuseML',
     description: 'Orchestration engine for MLOps',
-    repositoryURL: 'fuseml.github.io',
+    repositoryURL: 'https://fuseml.github.io',
     documentationURL: '',
   },
   {
@@ -126,7 +126,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'gcemetadata',
     description: 'Collect meta data in an Google Compute Engine instance',
-    repositoryURL: 'github.com/SUSE-Enceladus/gcemetadata',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/gcemetadata',
     documentationURL: '',
   },
   {
@@ -134,7 +134,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'gceimgutils',
     description: 'A collection of utilities for image management in Google Compute Engine',
-    repositoryURL: 'github.com/SUSE-Enceladus/gceimgutils	',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/gceimgutils	',
     documentationURL: '',
   },
   {
@@ -142,7 +142,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'gfxboot',
     description: 'Graphical boot screen for GRUB, LILO, and SYSLINUX',
-    repositoryURL: 'github.com/openSUSE/gfxboot',
+    repositoryURL: 'https://github.com/openSUSE/gfxboot',
     documentationURL: '',
   },
   {
@@ -150,7 +150,7 @@ export const PROJECTS = [
     tag: 'infrastructure',
     name: 'Harvester',
     description: 'Hyperconverged infrastructure solution for a cloud native world',
-    repositoryURL: 'harvesterhci.io',
+    repositoryURL: 'https://harvesterhci.io',
     documentationURL: '',
   },
   {
@@ -158,7 +158,7 @@ export const PROJECTS = [
     tag: 'education',
     name: 'HobbyFarm',
     description: 'Browser-based cloud systems learning tool',
-    repositoryURL: 'github.com/hobbyfarm',
+    repositoryURL: 'https://github.com/hobbyfarm',
     documentationURL: '',
   },
   {
@@ -166,7 +166,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'hwinfo',
     description: 'Support tool to generate a system overview',
-    repositoryURL: 'github.com/openSUSE/hwinfo',
+    repositoryURL: 'https://github.com/openSUSE/hwinfo',
     documentationURL: '',
   },
   {
@@ -174,7 +174,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Hypper',
     description: 'Kubernetes package management for cluster admins',
-    repositoryURL: 'hypper.io',
+    repositoryURL: 'https://hypper.io',
     documentationURL: '',
   },
   {
@@ -182,7 +182,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'img-proof',
     description: 'Command line utility to test images in the Public Cloud',
-    repositoryURL: 'github.com/SUSE-Enceladus/img-proof',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/img-proof',
     documentationURL: '',
   },
   {
@@ -190,7 +190,7 @@ export const PROJECTS = [
     tag: 'infrastructure',
     name: 'Jangouts',
     description: 'Video conferencing based on WebRTC and the excellent Janus Gateway',
-    repositoryURL: 'github.com/jangouts/jangouts#readme',
+    repositoryURL: 'https://github.com/jangouts/jangouts#readme',
     documentationURL: '',
   },
   {
@@ -198,7 +198,7 @@ export const PROJECTS = [
     tag: 'operating-systems',
     name: 'jeos-firstboot',
     description: 'Lightweight firstboot wizard systemd service for SLE and openSUSE JeOS Images',
-    repositoryURL: 'github.com/openSUSE/jeos-firstboot',
+    repositoryURL: 'https://github.com/openSUSE/jeos-firstboot',
     documentationURL: '',
   },
   {
@@ -206,7 +206,7 @@ export const PROJECTS = [
     tag: 'operating-systems',
     name: 'K3OS',
     description: 'Kubernetes operating system',
-    repositoryURL: 'k3os.io',
+    repositoryURL: 'https://k3os.io',
     documentationURL: '',
   },
   {
@@ -214,7 +214,7 @@ export const PROJECTS = [
     tag: 'kubernetes',
     name: 'K3S',
     description: 'Kubernetes distribution built for IoT & Edge computing',
-    repositoryURL: 'k3s.io',
+    repositoryURL: 'https://k3s.io',
     documentationURL: '',
   },
   {
@@ -222,7 +222,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'kanku',
     description: 'Kiwi image integration for OBS',
-    repositoryURL: 'm0ses.github.io/kanku',
+    repositoryURL: 'https://m0ses.github.io/kanku',
     documentationURL: '',
   },
   {
@@ -230,7 +230,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'keg',
     description: 'Tool to produce kiwi image descriptions',
-    repositoryURL: 'github.com/SUSE-Enceladus/keg',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/keg',
     documentationURL: '',
   },
   {
@@ -238,7 +238,7 @@ export const PROJECTS = [
     tag: 'kubernetes',
     name: 'kim',
     description: 'Kubernetes image manager',
-    repositoryURL: 'github.com/rancher/kim',
+    repositoryURL: 'https://github.com/rancher/kim',
     documentationURL: '',
   },
   {
@@ -246,7 +246,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'kiwi',
     description: 'OS image and appliance builder',
-    repositoryURL: 'github.com/OSInside/kiwi',
+    repositoryURL: 'https://github.com/OSInside/kiwi',
     documentationURL: '',
   },
   {
@@ -254,7 +254,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'klp-ccp',
     description: 'Automate source based Linux kernel live patch creation',
-    repositoryURL: 'github.com/SUSE/klp-ccp',
+    repositoryURL: 'https://github.com/SUSE/klp-ccp',
     documentationURL: '',
   },
   {
@@ -262,7 +262,7 @@ export const PROJECTS = [
     tag: 'security',
     name: 'Kubewarden',
     description: 'Policy engine for Kubernetes',
-    repositoryURL: 'kubewarden.io',
+    repositoryURL: 'https://kubewarden.io',
     documentationURL: '',
   },
   {
@@ -270,7 +270,7 @@ export const PROJECTS = [
     tag: 'operating-systems',
     name: 'Kubic',
     description: 'Certified Kubernetes distribution',
-    repositoryURL: 'kubic.opensuse.org',
+    repositoryURL: 'https://kubic.opensuse.org',
     documentationURL: '',
   },
   {
@@ -278,7 +278,7 @@ export const PROJECTS = [
     tag: 'security',
     name: 'kucero',
     description: 'Kubernetes daemonset that performs automatic Kubernetes control plane certificate rotation',
-    repositoryURL: 'github.com/SUSE/kucero',
+    repositoryURL: 'https://github.com/SUSE/kucero',
     documentationURL: '',
   },
   {
@@ -286,7 +286,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'libeconf',
     description: 'Enhanced config file parser',
-    repositoryURL: 'github.com/openSUSE/libeconf',
+    repositoryURL: 'https://github.com/openSUSE/libeconf',
     documentationURL: '',
   },
   {
@@ -294,7 +294,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'libpulp',
     description: 'Framework which enables userspace live patching',
-    repositoryURL: 'github.com/SUSE/libpulp',
+    repositoryURL: 'https://github.com/SUSE/libpulp',
     documentationURL: '',
   },
   {
@@ -310,7 +310,7 @@ export const PROJECTS = [
     tag: 'storage',
     name: 'libstorage-ng',
     description: 'Next generation storage module for YaST',
-    repositoryURL: 'yast.opensuse.org',
+    repositoryURL: 'https://yast.opensuse.org',
     documentationURL: '',
   },
   {
@@ -318,7 +318,7 @@ export const PROJECTS = [
     tag: 'storage',
     name: 'Longhorn',
     description: 'Cloud native distributed block storage for Kubernetes',
-    repositoryURL: 'longhorn.io',
+    repositoryURL: 'https://longhorn.io',
     documentationURL: '',
   },
   {
@@ -326,7 +326,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'mash',
     description: 'Python3 service based processes for Image Release automation into Amazon EC2, Google Compute Engine and Microsoft Azure',
-    repositoryURL: 'github.com/SUSE-Enceladus/mash',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/mash',
     documentationURL: '',
   },
   {
@@ -334,7 +334,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'mash-client',
     description: 'Command line utility to interface with the MASH server REST API',
-    repositoryURL: 'github.com/SUSE-Enceladus/mash-client',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/mash-client',
     documentationURL: '',
   },
   {
@@ -342,7 +342,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'MirrorCache',
     description: 'A server for downloading files from a mirror',
-    repositoryURL: 'github.com/openSUSE/MirrorCache',
+    repositoryURL: 'https://github.com/openSUSE/MirrorCache',
     documentationURL: '',
   },
   {
@@ -350,7 +350,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'obsgit',
     description: 'A simple bridge between Open Build Server and git',
-    repositoryURL: 'github.com/openSUSE/obsgit',
+    repositoryURL: 'https://github.com/openSUSE/obsgit',
     documentationURL: '',
   },
   {
@@ -358,7 +358,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'Open Build Service',
     description: 'Tool to build and distribute binary packages from source',
-    repositoryURL: 'openbuildservice.org',
+    repositoryURL: 'https://openbuildservice.org',
     documentationURL: '',
   },
   {
@@ -366,7 +366,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'Open Build Service Connector',
     description: 'Visual Studio Code extension for integration with OBS',
-    repositoryURL: 'marketplace.visualstudio.com/items?itemName=SUSE.open-build-service-connector',
+    repositoryURL: 'https://marketplace.visualstudio.com/items?itemName=SUSE.open-build-service-connector',
     documentationURL: '',
   },
   {
@@ -374,7 +374,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'openQA',
     description: 'Automated testing tool for Linux operating systems',
-    repositoryURL: 'open.qa',
+    repositoryURL: 'https://open.qa',
     documentationURL: '',
   },
   {
@@ -382,7 +382,7 @@ export const PROJECTS = [
     tag: 'operating-systems',
     name: 'openSUSE Leap',
     description: 'Stable, easy-to-use, multi-purpose Linux distribution',
-    repositoryURL: 'en.opensuse.org/Portal:Distribution',
+    repositoryURL: 'https://en.opensuse.org/Portal:Distribution',
     documentationURL: '',
   },
   {
@@ -390,7 +390,7 @@ export const PROJECTS = [
     tag: 'operating-systems',
     name: 'openSUSE MicroOS',
     description: 'Environment for deploying Containers and workloads with transactional updates',
-    repositoryURL: 'microos.opensuse.org',
+    repositoryURL: 'https://microos.opensuse.org',
     documentationURL: '',
   },
   {
@@ -398,7 +398,7 @@ export const PROJECTS = [
     tag: 'operating-systems',
     name: 'openSUSE Tumbleweed',
     description: 'Rolling release Linux distribution',
-    repositoryURL: 'en.opensuse.org/Portal:Tumbleweed',
+    repositoryURL: 'https://en.opensuse.org/Portal:Tumbleweed',
     documentationURL: '',
   },
   {
@@ -406,7 +406,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Opni',
     description: 'AIOps for Kubernetes with logging and monitoring',
-    repositoryURL: 'opni.io',
+    repositoryURL: 'https://opni.io',
     documentationURL: '',
   },
   {
@@ -414,7 +414,7 @@ export const PROJECTS = [
     tag: 'AI/ML',
     name: 'Phoebe',
     description: 'Auto-tuning and self-healing for artificial intelligence on Linux',
-    repositoryURL: 'github.com/SUSE/phoebe/wiki',
+    repositoryURL: 'https://github.com/SUSE/phoebe/wiki',
     documentationURL: '',
   },
   {
@@ -422,7 +422,7 @@ export const PROJECTS = [
     tag: 'infrastructure',
     name: 'public-cloud-info-service',
     description: 'Lookup Public Cloud images and services information via REST API',
-    repositoryURL: 'github.com/SUSE-Enceladus/public-cloud-info-service',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/public-cloud-info-service',
     documentationURL: '',
   },
   {
@@ -430,7 +430,7 @@ export const PROJECTS = [
     tag: 'networking',
     name: 'Prometheus Webhook SNMP',
     description: 'Prometheus Alertmanager receiver that translates incoming notifications into SNMP v2c traps',
-    repositoryURL: 'github.com/SUSE/prometheus-webhook-snmp',
+    repositoryURL: 'https://github.com/SUSE/prometheus-webhook-snmp',
     documentationURL: '',
   },
   {
@@ -438,7 +438,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Rancher',
     description: 'Kubernetes as a service',
-    repositoryURL: 'rancher.com',
+    repositoryURL: 'https://rancher.com',
     documentationURL: '',
   },
   {
@@ -446,7 +446,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Rancher Desktop',
     description: 'Kubernetes desktop application for Mac, Windows and Linux',
-    repositoryURL: 'rancherdesktop.io',
+    repositoryURL: 'https://rancherdesktop.io',
     documentationURL: '',
   },
   {
@@ -454,7 +454,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'Rio',
     description: 'Application deployment engine for Kubernetes',
-    repositoryURL: 'rio.io',
+    repositoryURL: 'https://rio.io',
     documentationURL: '',
   },
   {
@@ -462,7 +462,7 @@ export const PROJECTS = [
     tag: 'kubernetes',
     name: 'RKE',
     description: 'CNCF-certified Kubernetes distribution that runs entirely within Docker containers',
-    repositoryURL: 'rancher.com/products/rke',
+    repositoryURL: 'https://rancher.com/products/rke',
     documentationURL: '',
   },
   {
@@ -470,7 +470,7 @@ export const PROJECTS = [
     tag: 'kubernetes',
     name: 'RKE Government',
     description: 'Kubernetes distribution focused on security and compliance for the U.S. Government',
-    repositoryURL: 'docs.rke2.io',
+    repositoryURL: 'https://docs.rke2.io',
     documentationURL: '',
   },
   {
@@ -478,7 +478,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Repository Mirroring Tool (RMT)',
     description: 'Repository mirroring tool and registration proxy',
-    repositoryURL: 'github.com/SUSE/rmt',
+    repositoryURL: 'https://github.com/SUSE/rmt',
     documentationURL: '',
   },
   {
@@ -486,7 +486,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'service-access-config',
     description: 'Generate ACLs for a service',
-    repositoryURL: 'github.com/SUSE-Enceladus/service-access-config',
+    repositoryURL: 'https://github.com/SUSE-Enceladus/service-access-config',
     documentationURL: '',
   },
   {
@@ -494,7 +494,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Snapper',
     description: 'The ultimate snapshot tool for Linux',
-    repositoryURL: 'snapper.io',
+    repositoryURL: 'https://snapper.io',
     documentationURL: '',
   },
   {
@@ -502,7 +502,7 @@ export const PROJECTS = [
     tag: 'networking',
     name: 'Submariner',
     description: 'Direct networking between Pods and Services in different Kubernetes clusters, either on-premises or in the cloud',
-    repositoryURL: 'submariner.io',
+    repositoryURL: 'https://submariner.io',
     documentationURL: '',
   },
   {
@@ -510,7 +510,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'supportutils',
     description: 'SUSE Linux Enterprise support utility to gather system information',
-    repositoryURL: 'github.com/openSUSE/supportutils',
+    repositoryURL: 'https://github.com/openSUSE/supportutils',
     documentationURL: '',
   },
   {
@@ -518,7 +518,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'transactional-update',
     description: 'Transactional updates for MicroOS',
-    repositoryURL: 'microos.opensuse.org',
+    repositoryURL: 'https://microos.opensuse.org',
     documentationURL: '',
   },
   {
@@ -526,7 +526,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Trento',
     description: 'Console for SAP applications',
-    repositoryURL: 'trento-project.io',
+    repositoryURL: 'https://trento-project.io',
     documentationURL: '',
   },
   {
@@ -534,7 +534,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Uyuni',
     description: 'Configuration and infrastructure management solution for software-defined infrastructure',
-    repositoryURL: 'uyuni-project.org',
+    repositoryURL: 'https://uyuni-project.org',
     documentationURL: '',
   },
   {
@@ -542,7 +542,7 @@ export const PROJECTS = [
     tag: 'development',
     name: 'venvjail',
     description: 'Create Python virtualenvs in OBS ',
-    repositoryURL: 'github.com/openSUSE/venvjail',
+    repositoryURL: 'https://github.com/openSUSE/venvjail',
     documentationURL: '',
   },
   {
@@ -550,23 +550,23 @@ export const PROJECTS = [
     tag: 'infrastructure',
     name: 'vhostmd',
     description: 'Metrics communication channel between a host and its hosted virtual machines',
-    repositoryURL: 'github.com/vhostmd/vhostmd',
+    repositoryURL: 'https://github.com/vhostmd/vhostmd',
     documentationURL: '',
   },
-//  {
-//    isEnable: false,
-//    tag: 'operations',
-//    name: 'RKE Cluster Linter for VS Code',
-//    description: '',
-//    repositoryURL: 'marketplace.visualstudio.com/items?itemName=dancermak.vscode-rke-cluster-config',
-//    documentationURL: '',
-//  },
+  {
+    isEnable: false,
+    tag: 'operations',
+    name: 'RKE Cluster Linter for VS Code',
+    description: '',
+    repositoryURL: 'https://marketplace.visualstudio.com/items?itemName=dancermak.vscode-rke-cluster-config',
+    documentationURL: '',
+  },
   {
     isEnable: true,
     tag: 'networking',
     name: 'wicked',
     description: 'Framework for network configuration',
-    repositoryURL: 'en.opensuse.org/Portal:Wicked',
+    repositoryURL: 'https://en.opensuse.org/Portal:Wicked',
     documentationURL: '',
   },
   {
@@ -574,7 +574,7 @@ export const PROJECTS = [
     tag: 'kubernetes',
     name: 'wins',
     description: 'Operate a Windows host inside a Windows container',
-    repositoryURL: 'github.com/rancher/wins',
+    repositoryURL: 'https://github.com/rancher/wins',
     documentationURL: '',
   },
   {
@@ -582,7 +582,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Yomi',
     description: 'Linux installer based on Salt',
-    repositoryURL: 'github.com/openSUSE/yomi',
+    repositoryURL: 'https://github.com/openSUSE/yomi',
     documentationURL: '',
   },
   {
@@ -590,7 +590,7 @@ export const PROJECTS = [
     tag: 'operations',
     name: 'Zypper',
     description: 'Command line package manage for Linux',
-    repositoryURL: 'en.opensuse.org/Portal:Zypper',
+    repositoryURL: 'https://en.opensuse.org/Portal:Zypper',
     documentationURL: '',
   },
 
