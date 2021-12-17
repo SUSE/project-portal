@@ -553,14 +553,14 @@ export const PROJECTS = [
     repositoryURL: 'github.com/vhostmd/vhostmd',
     documentationURL: '',
   },
-  {
-    isEnable: false,
-    tag: 'operations',
-    name: 'RKE Cluster Linter for VS Code',
-    description: 'Lorem impsum doe john text hello lorem ipsum doe',
-    repositoryURL: 'marketplace.visualstudio.com/items?itemName=dancermak.vscode-rke-cluster-config',
-    documentationURL: '',
-  },
+//  {
+//    isEnable: false,
+//    tag: 'operations',
+//    name: 'RKE Cluster Linter for VS Code',
+//    description: '',
+//    repositoryURL: 'marketplace.visualstudio.com/items?itemName=dancermak.vscode-rke-cluster-config',
+//    documentationURL: '',
+//  },
   {
     isEnable: true,
     tag: 'networking',
