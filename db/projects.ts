@@ -65,14 +65,14 @@ export const PROJECTS = [
     repositoryURL: 'en.opensuse.org/Portal:MicroOS/Combustion',
     documentationURL: '',
   },
-  {
-    isEnable: false,
-    tag: 'security',
-    name: 'ComplianceAsCode',
-    description: '',
-    repositoryURL: 'github.com/SUSE/ComplianceAsCodeContent/',
-    documentationURL: '',
-  },
+ // {
+ //   isEnable: false,
+ //   tag: 'security',
+ //   name: 'ComplianceAsCode',
+ //   description: '',
+ //   repositoryURL: 'github.com/SUSE/ComplianceAsCodeContent/',
+ //   documentationURL: '',
+ // },
   {
     isEnable: true,
     tag: 'operations',
