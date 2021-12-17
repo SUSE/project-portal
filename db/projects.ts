@@ -413,7 +413,7 @@ export const PROJECTS = [
     isEnable: true,
     tag: 'AI/ML',
     name: 'Phoebe',
-    description: '',
+    description: 'Auto-tuning and self-healing for artificial intelligence on Linux',
     repositoryURL: 'github.com/SUSE/phoebe/wiki',
     documentationURL: '',
   },
