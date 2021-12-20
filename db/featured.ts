@@ -17,7 +17,7 @@ export const FEATURED_PROJECTS = [
   {
     color: '#0280BE',
     logo: 'rancher-desktop.svg',
-    tag: 'Development',
+    tag: 'development',
     name: 'Rancher Desktop',
     description: 'Kubernetes on your desktop.',
     href: 'https://rancherdesktop.io/',
