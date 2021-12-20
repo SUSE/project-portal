@@ -3,14 +3,14 @@ import { HandLeafSVG, SUSEandRancherSVG } from '@/assets/images'
 export const ProdudlyOpenSource = () => {
   return <div className="flex flex-row-2 gap-2 md:gap-4 justify-start ">
     <div className="flex flex-col gap-2">
-      <div className='flex justify-center align-middle place-items-center gap-2'>
+      <div className='flex justify-left align-middle place-items-center gap-2'>
         <HandLeafSVG className='w-10 align-middle' />
         <h2 className=" font-medium text-2xl text-black">
           Proudly Open Source
         </h2>
       </div>
 
-      <p className='text-gray-800 text-center'>
+      <p className='text-gray-800 text-left'>
         Open Source is not only about code at SUSE, it’s in our Genes. <br />
         The <a className="text-suse-blue underline font-medium" href='https://opensource.suse.com/suse-open-source-policy.html' target='_blank' rel="noreferrer">SUSE Open Source Policy</a> defines our shared values and beliefs
         about contributing to projects and participating in communities.
