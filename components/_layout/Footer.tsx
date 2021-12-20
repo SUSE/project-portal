@@ -5,19 +5,20 @@ export const Footer = () => {
   const { projectFooterLinks, projectNavigation: { social } } = PROJECT_CONFIGURATION
   return (
     <div className=' bg-secondary-dark text-white py-4'>
-      <div className='grid grid-flow-row align-middle mx-auto w-3/4'>
-        <div className='flex place-items-center justify-between'>
+      <div className='grid grid-flow-row align-middle mx-auto max-w-[1400px] w-full '>
+
+        <div className='flex place-items-center justify-between py-8'>
           <div className='flex gap-2 flex-wrap justify-self-start place-items-center'>
             <SuseLogoSVG className='w-36' />
             {projectFooterLinks.map((ele) => (
-              <a className='font-bold text-xs' key={ele.title} href={ele.href} target='_blank' rel='noreferrer'>
+              <a className='font-medium text-xs' key={ele.title} href={ele.href} target='_blank' rel='noreferrer'>
                 {ele.title}
               </a>
             ))}
           </div>
           <div className='flex gap-2 justify-self-end'>
             {social.map((ele) => (
-              <a className='font-bold text-xs w-4 h-4' key={ele.url} href={ele.url} target='_blank' rel='noreferrer'>
+              <a className='font-medium text-xs w-4 h-4' key={ele.url} href={ele.url} target='_blank' rel='noreferrer'>
                 <ele.icon className='w-4 fill-current text-white' />
               </a>
             ))}

@@ -3,7 +3,7 @@ import { PROJECTS, CATEGORIES } from '@/db/projects'
 import useStore from '@/store/main.store'
 
 export const Filter = () => {
-  const { setProjects, setNavPages } = useStore(state => state)
+  const { setProjects } = useStore(state => state)
   const [categoryFilter, setCategoryFilter] = useState<string[]>([])
 
   useEffect(() => {
@@ -29,8 +29,6 @@ export const Filter = () => {
     } else {
       if (e.target.checked) setCategoryFilter([...categoryFilter, e.target.name])
     }
-
-    // setNavPages()
   }
 
   const handleSearchFunction = (e: { target: { value: string } }) => {
@@ -41,7 +39,7 @@ export const Filter = () => {
   return <div className="flex flex-col gap-4">
     <input onChange={handleSearchFunction} className="border-b-2" type='text' name='search' id='' placeholder='Search' />
 
-    <span className="text-xl text-secondary-light font-bold">Filters</span>
+    <span className="text-xl text-black font-medium">Filters</span>
     <p className="text-xs">Categories <span className="text-xs text-gray-400">(allows multiple choice)</span></p>
 
     <div className="flex flex-col gap-2">

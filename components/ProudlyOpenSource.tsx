@@ -1,19 +1,35 @@
-import { ProudlyOpenSVG } from '@/assets/images'
+import { HandLeafSVG, SUSEandRancherSVG } from '@/assets/images'
 
 export const ProdudlyOpenSource = () => {
-  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-start bg-gray-100 p-4 border-r-4 border-secondary-light">
+  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-start ">
     <div className="flex flex-col gap-2">
-      <h2 className="font-bold text-2xl text-secondary-light">
-        Proudly Open Source
-      </h2>
-      <p className='text-gray-800'>
-        Open Source is not only about code at SUSE, Open Source is in our Genes. That’s why we have written the  <a className="text-suse-blue underline font-bold" href='#' target='_blank'>SUSE Open Source Policy</a> to share our values and beliefs about contributing to projects and participating in communities, and lay down guidelines for our employees.
+      <div className='flex justify-left align-middle place-items-center gap-2'>
+        <HandLeafSVG className='w-10 align-middle' />
+        <h2 className=" font-medium text-2xl text-black">
+          Proudly Open Source
+        </h2>
+      </div>
 
+      <p className='text-gray-800 text-left'>
+        Open Source is not only about code at SUSE, it’s in our Genes. <br />
+        The <a className="text-suse-blue underline font-medium" href='https://opensource.suse.com/suse-open-source-policy.html' target='_blank' rel="noreferrer">SUSE Open Source Policy</a> defines our shared values and beliefs
+        about contributing to projects and participating in communities.
       </p>
-
     </div>
-    <ProudlyOpenSVG className='w-64' />
   </div>
 }
 
-export default ProdudlyOpenSource
+
+export const SUSEandRancher = () => {
+  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-center ">
+    <div className="flex flex-col gap-2">
+      <span className='text-center mx-auto'>
+        <SUSEandRancherSVG />
+      </span>
+      <p className='text-gray-800 text-center'>
+        Ask questions and learn more about these projects in our community. <br />
+      </p>
+      <a className="mx-auto text-black bg-primary hover:bg-opacity-70 px-4 py-1 hover:border-primary font-medium" href='https://community.suse.com/' target='_blank' rel="noreferrer">Join the SUSE & Rancher Community</a>
+    </div>
+  </div>
+}

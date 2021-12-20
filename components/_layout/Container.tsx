@@ -6,9 +6,9 @@ import { Header } from './Header'
 export const Container = ({ children }) => {
   return (
     <AnimatePresence>
-      <div className='grid grid-flow-row gap-4 min-h-screen'>
+      <div className='grid grid-flow-row min-h-screen'>
         <Header />
-        <div className='mx-auto w-11/12 2xl:w-3/4 flex-grow'>{children}</div>
+        <div className='mx-auto max-w-[1400px] w-full  flex-grow'>{children}</div>
         <AllProjects />
         <Footer />
       </div>
