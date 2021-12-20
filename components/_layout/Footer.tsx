@@ -4,7 +4,7 @@ import { PROJECT_CONFIGURATION } from '@/db/project-info'
 export const Footer = () => {
   const { projectFooterLinks, projectNavigation: { social } } = PROJECT_CONFIGURATION
   return (
-    <div className=' bg-secondary-dark text-white py-4'>
+    <div className=' bg-secondary-dark text-white p-4'>
       <div className='grid grid-flow-row align-middle mx-auto max-w-[1400px] w-full '>
 
         <div className='flex place-items-center justify-between py-8'>

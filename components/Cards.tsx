@@ -8,14 +8,14 @@ import { PREFIX } from '@/utils/constants'
 export const FeaturedProjectCard = ({ color, logo, tag, name, description, href, repositoryURL, documentationURL, twitterURL }) => {
   return <motion.div initial='hidden'
     animate='visible' variants={motionListItems} className="relative grid gap-4 align-middle ring-2 ring-inset ring-gray-100">
-    <span className="absolute left-0 top-0 border-2 h-full uppercase" style={{ borderColor: `${color}` }}></span>
-    <div className="flex flex-col gap-4 w-full px-4 py-4">
+    <span className="absolute left-0 top-0 border-2 w-full uppercase" style={{ borderColor: `${color}` }}></span>
+    <div className="flex flex-col gap-4 w-full p-4">
       <div className="flex items-start gap-2">
         <span className="w-[180px]">
           <img src={`${PREFIX}/featured_projects/${logo}`} alt={`${name} logo`} />
         </span>
 
-        <span className="absolute top-0 right-0 place-self-start text-[10px] px-2 py-1 bg-gray-100 text-gray-500 capitalize">{tag}</span>
+        <span className="absolute top-1.5 right-0 place-self-start text-[10px] px-2 py-1 bg-gray-100 text-gray-500 capitalize">{tag}</span>
       </div>
       <p className="text-sm text-black">{description}</p>
     </div>
