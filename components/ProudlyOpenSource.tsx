@@ -11,7 +11,7 @@ export const ProdudlyOpenSource = () => {
       </div>
 
       <p className='text-gray-800 text-left'>
-        Open Source is not only about code at SUSE, it’s in our Genes. </p>
+        Open Source is not only about code at SUSE, it’s in our Genes.</p>
       <p className='text-gray-800 text-left'>	
         The <a className="text-suse-blue underline font-medium" href='https://opensource.suse.com/suse-open-source-policy.html' target='_blank' rel="noreferrer">SUSE Open Source Policy</a> defines our shared values and beliefs
         about contributing to projects and participating in communities.
