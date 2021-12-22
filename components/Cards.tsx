@@ -29,7 +29,7 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
         </a>
       }
       {
-        repositoryURL && (<a className="group flex flex-col justify-center place-items-center align-middle gap-1 font-medium" href={repositoryURL}>
+        repositoryURL && (<a className="group flex flex-col justify-center place-items-center align-middle gap-1 font-medium" href={repositoryURL} target="_blank">
           <GithubSVG className="w-5 h-5 fill-current text-gray-400 group-hover:text-primary" />
           <span className="text-[10px] place-self-center text-gray-500 group-hover:text-primary hover:scale-105">
             Repository
