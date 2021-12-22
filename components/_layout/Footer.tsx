@@ -25,9 +25,9 @@ export const Footer = () => {
           </div>
         </div>
 
-        <span className='border border-gray-400 border-dotted'></span>
+        <span className='border border-gray-400 border-dotted mx-8'></span>
 
-        <div className='flex justify-between align-center py-4 px-8 w-full'>
+        <div className='flex justify-between align-center p-8 w-full'>
           <div className='flex text-xs gap-8'>
             <p>
               Sales Number: 49-911-740-53-0
