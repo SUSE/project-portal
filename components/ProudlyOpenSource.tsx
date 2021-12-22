@@ -1,8 +1,8 @@
 import { HandLeafSVG, SUSEandRancherSVG } from '@/assets/images'
 
 export const ProdudlyOpenSource = () => {
-  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-start ">
-    <div className="flex flex-col gap-2 mb-20">
+  return <div className="flex flex-row-2 gap-2 md:gap-4 justify-start mb-20">
+    <div className="flex flex-col gap-2">
       <div className='flex justify-left align-middle place-items-center gap-2'>
         <HandLeafSVG className='w-10 align-middle' />
         <h2 className=" font-medium text-2xl text-black">
