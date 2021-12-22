@@ -22,13 +22,13 @@ export default function Home() {
         <div className='grid gap-4'>
           <div className='col-span-4 text-secondary-dark0'>
             <div className='flex flex-col md:flex-row gap-5 md:gap-20 my-20'>
-              <h1 className='w-1/4 leading-tight place-items-center font-medium text-5xl'>Innovate Everywhere</h1>
+              <h1 className='leading-tight place-items-center font-medium text-5xl'>Innovate Everywhere</h1>
               <div className=''>
-                <p className='font-medium mt-3'>
+                <p className='font-medium mt-3 text-xl'>
                   SUSE engineers work closely with open source community members to build and refine the technologies that enable you to innovate everywhere.
                 </p>
 
-                <p className='font-medium mt-3'>
+                <p className='font-medium mt-3 text-xl'>
                   From operating systems to developer automation tooling, from container runtimes to Kubernetes management platforms, we leverage these projects to create
                   fully supported, open solutions that address the challenges of today’s hybrid cloud, cloud-native, and edge environments.
                 </p>
@@ -47,7 +47,7 @@ export default function Home() {
           </div> */}
         </div >
 
-        <div className='grid grid-cols-1 gap-20 md:grid-cols-2 md:gap-32 px-20 mb-20 align-items-center align-middle'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-32 px-20 align-items-center align-middle'>
           <ProdudlyOpenSource />
           <SUSEandRancher />
         </div>
