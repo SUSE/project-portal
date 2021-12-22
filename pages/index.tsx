@@ -47,7 +47,7 @@ export default function Home() {
           </div> */}
         </div >
 
-        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-32 px-20 mb-20 align-items-center align-middle'>
+        <div className='grid grid-cols-1 gap-20 md:grid-cols-2 md:gap-32 px-20 mb-20 align-items-center align-middle'>
           <ProdudlyOpenSource />
           <SUSEandRancher />
         </div>
