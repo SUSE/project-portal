@@ -17,7 +17,7 @@ export const Header = () => {
         <div className='grid gap-2'>
           <div className='flex flex-row items-center align-items-center justify-between align-middle gap-2'>
             {/*eslint-disable-next-line @next/next/no-img-element */}
-            <span className='w-[170px]'> <SuseLogoSVG /></span>
+            <span className='w-[170px]'><a href='https://www.suse.com/' ><SuseLogoSVG /></a></span>
             <span className='text-xl font-medium text-gray-200 px-4 place-self-center'>{projectSubtitle}</span>
           </div>
         </div>
