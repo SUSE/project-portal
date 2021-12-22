@@ -21,7 +21,7 @@ export const PROJECT_CONFIGURATION = {
   },
   projectFooterLinks: [
     {
-      title: 'Carrer',
+      title: 'Careers',
       href: 'https://www.suse.com/company/careers/',
     },
     {
