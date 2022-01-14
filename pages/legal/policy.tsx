@@ -19,12 +19,12 @@ export default function Policy() {
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 self-center" viewBox="0 0 20 20" fill="currentColor">
             <path fillRule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clipRule="evenodd" />
           </svg>
-          Go Back
+          Return to Home
         </span>
 
         <h1 className='text-2xl' id="suse-open-source-policy">SUSE Open Source Policy</h1>
 
-        <h2 className='text-xl' id="introduction">Introduction</h2>
+        <h2 className='text-xl mt-4' id="introduction">Introduction</h2>
 
         <p>Organizations today face increasing pressure to become more agile and economically efficient in order to grow, compete and survive. They must leverage digital assets, information and a surge of new infrastructure software innovation to fuel and enable their digital transformation.</p>
 
@@ -36,7 +36,7 @@ export default function Policy() {
 
         <p>Our consistent ability to meet these market demands creates a cycle of success, momentum and growth that allows SUSE to continue to deliver the open source innovation customers need to achieve their digital transformation goals.</p>
 
-        <h2 className='text-xl' id="purpose">Purpose</h2>
+        <h2 className='text-xl mt-4' id="purpose">Purpose</h2>
 
         <p>Open source is at the heart of the SUSE business and development model. We believe that Open Source is not a zero-sum game but that collaboration in the open benefits all participants and creates a broader base for everybody to build upon. SUSE is proud to be a good citizen and leader of the global open source community. Our approach to open source is “Open Source first, upstream first”.</p>
 
@@ -46,7 +46,7 @@ export default function Policy() {
 
         <p>When we discuss “open source software”, we refer to the definition of <a className="text-blue-500 hover:cursor-pointer" href="https://opensource.org/licenses">open source licenses by the Open Source Initiative (“OSI”)</a>. SUSE considers “open source” to be software, including its documentation, released under a license that is compatible with OSI’s open source definition to be open source.</p>
 
-        <h2 className='text-xl' id="scope">Scope</h2>
+        <h2 className='text-xl mt-4' id="scope">Scope</h2>
 
         <p>The audience of this policy is mainly SUSE employees. However, we hope the policy inspires our partners, customers, and users to follow the same model.</p>
 
@@ -57,7 +57,7 @@ export default function Policy() {
           <li>How we consume open source software. Which means: how we use it in our products, how we deal with licenses, how we integrate it in our products with our open “factory first” work flow. We have distributed thousands of open source projects as part of our products for more than 25 years and we have learned a thing or two while doing it.</li>
         </ol>
 
-        <h2 className='text-xl' id="definitions">Definitions</h2>
+        <h2 className='text-xl mt-4' id="definitions">Definitions</h2>
 
         <table>
           <thead>
@@ -102,7 +102,7 @@ export default function Policy() {
           </tbody>
         </table>
 
-        <h2 className='text-xl' id="policy-statement">Policy Statement</h2>
+        <h2 className='text-xl mt-4' id="policy-statement">Policy Statement</h2>
 
         <h3 className='font-medium' id="producing-open-source-software">Producing Open Source Software</h3>
 
@@ -210,7 +210,7 @@ export default function Policy() {
 
         <p>SUSE is a founding member of the <a className="text-blue-500 hover:cursor-pointer" href="http://www.openinventionnetwork.com/">Open Invention Network (OIN)</a>. We are committed to the non-aggression patent pool and to reducing patent-induced threats to the Linux ecosystem.</p>
 
-        <h2 className='text-xl' id="reporting-a-violation-of-this-policy">Reporting a Violation of This Policy</h2>
+        <h2 className='text-xl mt-4' id="reporting-a-violation-of-this-policy">Reporting a Violation of This Policy</h2>
 
         <h3 className='font-medium' id="help">Help</h3>
 
@@ -220,15 +220,15 @@ export default function Policy() {
 
         <p>If you have any inquiries about FOSS compliance at SUSE please contact Ciaran Farrell <a className="text-blue-500 hover:cursor-pointer" href="mailto:ciaran.farrell@suse.com">ciaran.farrell@suse.com</a>.</p>
 
-        <h2 className='text-xl' id="roles-and-responsibilities">Roles and Responsibilities</h2>
+        <h2 className='text-xl mt-4' id="roles-and-responsibilities">Roles and Responsibilities</h2>
 
         <p>Employees have the responsibility to follow and familiarize themselves with the policy.</p>
 
-        <h2 className='text-xl' id="exceptions">Exceptions</h2>
+        <h2 className='text-xl mt-4' id="exceptions">Exceptions</h2>
 
         <p>Not applicable.</p>
 
-        <h2 className='text-xl' id="related-documentation">Related Documentation</h2>
+        <h2 className='text-xl mt-4' id="related-documentation">Related Documentation</h2>
 
         <table>
           <thead>
@@ -249,7 +249,7 @@ export default function Policy() {
           </tbody>
         </table>
 
-        <h2 className='text-xl' id="policy-review">Policy Review</h2>
+        <h2 className='text-xl mt-4' id="policy-review">Policy Review</h2>
 
         <p>Proposed changes are reviewed via pull requests to https://github.com/SUSE/open-source-policy/ by policy reviewers and the owner. At least one approval is needed to accept the change in GitHub.</p>
 
