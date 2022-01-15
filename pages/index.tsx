@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 import { FeaturedProject } from '@/components/FeaturedProjects'
 import { ProdudlyOpenSource, SUSEandRancher } from '@/components/ProudlyOpenSource'
+import { AllProjects } from '@/components/AllProjects'
 
 // import { Ad } from '@/components/Ad'
 
@@ -15,9 +16,16 @@ export default function Home() {
         <meta name='description' content={projectSubtitle} />
         {/** 👀 Replace with your custom favicon.ico */}
         <link rel='icon' href='/favicon.ico' />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
 
-      <main className={'relative grid grid-flow-row gap-24 m-[22px]'}>
+      <main className={'relative grid grid-flow-row gap-24 m-[22px] mx-auto max-w-[1400px] w-full p-8'}>
         {/** 👀 Why section */}
         <div className='grid gap-4'>
           <div className='col-span-4 text-secondary-dark0'>
@@ -42,16 +50,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div className='self-center'>
-            <Ad />
-          </div> */}
         </div >
 
-        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-32 px-20 align-items-center align-middle'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:gap-32 md:px-20 align-items-center align-middle'>
           <ProdudlyOpenSource />
           <SUSEandRancher />
         </div>
       </main >
+      <AllProjects />
     </div >
   )
 }

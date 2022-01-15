@@ -27,8 +27,8 @@ export const AllProjects = () => {
     setItemOffset(newOffset);
   };
 
-  return <div className=" relative mx-auto w-full flex-grow bg-gray-100">
-    <div className="relative mx-auto max-w-[1400px] w-full  mt-4 ">
+  return <div className="relative mx-auto w-full flex-grow bg-gray-100">
+    <div className="relative mx-auto max-w-[1400px] w-full pt-10 ">
       <div className="flex flex-col bg-white mt-28 gap-4 p-8">
         <div className=' py-4'>
           <span className='text-3xl text-black font-medium'>All projects</span>
