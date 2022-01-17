@@ -1,29 +1,24 @@
 ---
-name: Project/Proyect request
-about: Request a new addition of a new project/proyect to the lsit.
+name: Project request
+about: Add a new open-source project to the list.
 title: "[REQUEST]"
 labels: ''
 assignees: dirkmueller, en3sis, kwwii
-
 ---
 
-Please fill in the following information:
+Necessary information:
 
 **Project name**
-Indicate the name of the project/product.
+Name of the open-source project.
 
 **Project tag**
-Indicate ONE of the following tags: Operations, Storage, Development, AI/ML, Infrastructure, Education, Operating Systems, Kubernetes, Security, or Network.
+**Select ONE** of the following tags: Operations, Storage, Development, AI/ML, Infrastructure, Education, Operating Systems, Kubernetes, Security, or Network.
 If you feel that some other category is missing, please let us know.
 
 **Project description**
-Indicate a short description (not longer than 8 to 9 words) that explains what is about.
-
+Explain in 9 words or less the project
 
 **Project repository URL**
-Where is the repository hosted and the URL (Github or Gitlab)
-
-
-
+Where is the repository hosted? (Github or Gitlab URL)
 NOTE: Please keep in mind that you can also open a PR editing the file under `/db/projects.ts` yourself.
-By filling this Issue we'll fill it for you.
+By filing this Issue we'll take care of it for you.
