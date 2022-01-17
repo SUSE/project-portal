@@ -1,6 +1,6 @@
 ---
 name: Project/Proyect request
-about: Request a new addition of a new project/proyect to the lsit.
+about: Request a new addition of a new project/project  to the list.
 title: "[REQUEST]"
 labels: ''
 assignees: dirkmueller, en3sis, kwwii
@@ -17,7 +17,7 @@ Indicate ONE of the following tags: Operations, Storage, Development, AI/ML, Inf
 If you feel that some other category is missing, please let us know.
 
 **Project description**
-Indicate a short description (not longer than 8 to 9 words) that explains what is about.
+Indicate a short description (not longer than 8 to 9 words) that explains  what it is about.
 
 
 **Project repository URL**
