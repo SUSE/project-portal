@@ -625,14 +625,6 @@ export const PROJECTS = [
     repositoryURL: 'https://gitlab.com/qemu-project/qemu',
     documentationURL: '#',
   },
-  {
-    isEnable: true,
-    tag: 'infrastructure',
-    name: 'QEMU',
-    description: 'A generic and powerful machine emulator and virtualizer',
-    repositoryURL: 'https://gitlab.com/qemu-project/qemu',
-    documentationURL: '#',
-  },
   // TODO: Pending of revision
   {
     isEnable: false,
