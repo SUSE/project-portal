@@ -65,14 +65,14 @@ export const PROJECTS = [
     repositoryURL: 'https://en.opensuse.org/Portal:MicroOS/Combustion',
     documentationURL: '',
   },
- // {
- //   isEnable: false,
- //   tag: 'security',
- //   name: 'ComplianceAsCode',
- //   description: '',
- //   repositoryURL: 'github.com/SUSE/ComplianceAsCodeContent/',
- //   documentationURL: '',
- // },
+  {
+    isEnable: false,
+    tag: 'security',
+    name: 'ComplianceAsCode',
+    description: '',
+    repositoryURL: 'github.com/SUSE/ComplianceAsCodeContent/',
+    documentationURL: '',
+  },
   {
     isEnable: true,
     tag: 'operations',
@@ -601,7 +601,55 @@ export const PROJECTS = [
     repositoryURL: 'https://en.opensuse.org/Portal:Zypper',
     documentationURL: '',
   },
-
+  {
+    isEnable: true,
+    tag: 'operating-systems',
+    name: 'Linux Kernel',
+    description: 'The core engine of every Linux-based operating system.',
+    repositoryURL: 'https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'Linux Test Project',
+    description: 'Collection of tools for testing the Linux kernel.',
+    repositoryURL: 'https://github.com/linux-test-project/ltp',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'infrastructure',
+    name: 'QEMU',
+    description: 'A generic and powerful machine emulator and virtualizer',
+    repositoryURL: 'https://gitlab.com/qemu-project/qemu',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'infrastructure',
+    name: 'QEMU',
+    description: 'A generic and powerful machine emulator and virtualizer',
+    repositoryURL: 'https://gitlab.com/qemu-project/qemu',
+    documentationURL: '#',
+  },
+  // TODO: Pending of revision
+  {
+    isEnable: false,
+    tag: 'infrastructure',
+    name: 'The Xen-Project',
+    description: 'The Xen-Project provides advanced, secure, flexible and performant virtualization solutions for Enterprises, Cloud and Embedded world.',
+    repositoryURL: 'https://xenbits.xen.org/git-http/xen.git',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'GNU Compiler Collection (GCC)',
+    description: 'Compilers of C/C++, Fortran, Ada, Go and other languages',
+    repositoryURL: 'https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git',
+    documentationURL: '#',
+  },
 ]
 
 // Dynamicly generated tags
