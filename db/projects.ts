@@ -483,6 +483,14 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
+    tag: 'development',
+    name: 'rpmlint',
+    description: 'A tool for checking common errors in RPM packages',
+    repositoryURL: 'https://github.com/rpm-software-management/rpmlint',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
     tag: 'operations',
     name: 'service-access-config',
     description: 'Generate ACLs for a service',
