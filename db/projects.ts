@@ -642,6 +642,46 @@ export const PROJECTS = [
     repositoryURL: 'https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git',
     documentationURL: '#',
   },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'The GNU Project Debugger (GDB)',
+    description: 'Well known debugger',
+    repositoryURL: 'https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'operating-system',
+    name: 'The GNU C Library (glibc)',
+    description: 'The core system library of (not just) Linux systems',
+    repositoryURL: 'https://sourceware.org/git/?p=glibc.git',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'operations',
+    name: 'YaST2',
+    description: 'Installation and configuration tool',
+    repositoryURL: 'https://github.com/yast/',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'libyui',
+    description: 'Widget abstraction library providing Qt, GTK and ncurses frontends',
+    repositoryURL: 'https://github.com/libyui/',
+    documentationURL: '#',
+  },
+  {
+    isEnable: true,
+    tag: 'operations',
+    name: 'Relax-and-Recover',
+    description: 'Linux Disaster Recovery framework',
+    repositoryURL: 'https://github.com/rear/rear',
+    documentationURL: '#',
+  },
 ]
 
 // Dynamicly generated tags
