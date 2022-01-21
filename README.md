@@ -1,4 +1,15 @@
-## Getting Started
+## 📝 Adding new project/product
+
+### Opening an Issue
+To add your project, create an issue at https://github.com/SUSE/project-portal/issues/new/choose with the template provided.
+
+### Opening a PR
+To add new content to the list of projects/products, please follow the instructions below:
+- Duplicate one of the items array under `/db/projects.js` and fill it with your information.
+- Create a new PR with your changes, one of the repository owners will review it before mergin.
+
+
+## 💠 Getting Started
 
 For development, please run the following commands:
 
@@ -26,11 +37,3 @@ Project configuration can be found under `/db/project-info.js`. You'll need to f
 You can serve the applications a Server-Side render with `npm start`. This will build the Production Ready application.
 
 If you want to generate static files to serve as Static Site on Github Pages for example you should run `npm run static`. This will generate an `/out` folder with all the static files.
-
-
-## Adding new project/product
-
-To add new content to the list of projects/products, please follow the instructions below:
-
-- Duplicate one of the items array under `/db/projects.js` and fill it with your information.
-- Create a new PR with your changes, one of the repository owners will review it before mergin.
