@@ -631,7 +631,7 @@ export const PROJECTS = [
     tag: 'infrastructure',
     name: 'The Xen-Project',
     description: 'The Xen-Project provides advanced, secure, flexible and performant virtualization solutions for Enterprises, Cloud and Embedded world.',
-    repositoryURL: 'https://xenbits.xen.org/git-http/xen.git',
+    repositoryURL: 'https://xenbits.xen.org/gitweb/?p=xen.git;a=summary',
     documentationURL: '#',
   },
   {
