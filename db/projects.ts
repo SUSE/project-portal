@@ -315,6 +315,14 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
+    tag: 'infrastructure',
+    name: 'libvirt',
+    description: 'Libvirt provides a portable, long term stable API for managing virtualization technologies',
+    repositoryURL: 'https://libvirt.org',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
     tag: 'storage',
     name: 'Longhorn',
     description: 'Cloud native distributed block storage for Kubernetes',
