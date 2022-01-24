@@ -660,7 +660,7 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
-    tag: 'operating-system',
+    tag: 'operating-systems',
     name: 'The GNU C Library (glibc)',
     description: 'The core system library of (not just) Linux systems',
     repositoryURL: 'https://sourceware.org/git/?p=glibc.git',
