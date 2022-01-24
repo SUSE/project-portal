@@ -690,6 +690,16 @@ export const PROJECTS = [
     repositoryURL: 'https://github.com/rear/rear',
     documentationURL: '#',
   },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'LTP',
+    description: 'Linux Test Project is a joint project started by SGI, OSDL and Bull developed and maintained by IBM, Cisco, Fujitsu, SUSE, Red Hat, Oracle and others. The project goal is to deliver tests to the open source community that validate the reliability, robustness, and stability of Linux.
+
+The LTP testsuite contains a collection of tools for testing the Linux kernel and related features. Our goal is to improve the Linux kernel and system libraries by bringing test automation to the testing effort. Interested open source contributors are encouraged to join.',
+    repositoryURL: 'https://github.com/linux-test-project/ltp',
+    documentationURL: 'http://linux-test-project.github.io/',
+  },
 ]
 
 // Dynamicly generated tags
