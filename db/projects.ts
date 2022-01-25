@@ -84,6 +84,14 @@ export const PROJECTS = [
   {
     isEnable: true,
     tag: 'operations',
+    name: 'dracut',
+    description: 'Initramfs generator using udev',
+    repositoryURL: 'https://github.com/dracutdevs/dracut',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
+    tag: 'operations',
     name: 'ec2metadata',
     description: 'Collect metadata for an instance in an Amazon EC2 guest instance',
     repositoryURL: 'https://github.com/SUSE-Enceladus/ec2metadata',
@@ -143,6 +151,14 @@ export const PROJECTS = [
     name: 'gfxboot',
     description: 'Graphical boot screen for GRUB, LILO, and SYSLINUX',
     repositoryURL: 'https://github.com/openSUSE/gfxboot',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
+    tag: 'operations',
+    name: 'grub2',
+    description: 'Bootloader with support for Linux, Multiboot and more',
+    repositoryURL: 'https://savannah.gnu.org/git/?group=grub',
     documentationURL: '',
   },
   {
@@ -527,6 +543,14 @@ export const PROJECTS = [
     name: 'supportutils',
     description: 'SUSE Linux Enterprise support utility to gather system information',
     repositoryURL: 'https://github.com/openSUSE/supportutils',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
+    tag: 'operations',
+    name: 'systemd',
+    description: 'A powerful System and Session Manager',
+    repositoryURL: 'https://github.com/systemd/systemd',
     documentationURL: '',
   },
   {
