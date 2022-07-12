@@ -20,9 +20,9 @@ export const PROJECTS = [
   {
     isEnable: true,
     tag: 'storage',
-    name: 'Aquarium',
-    description: 'Build rock-solid easy-to-use Ceph applications',
-    repositoryURL: 'https://github.com/aquarist-labs/aquarium',
+    name: 'S3 Gateway',
+    description: 'Easy-to-use Open Source and Cloud Native S3 service for use on Rancher\'s Kubernetes',
+    repositoryURL: 'https://github.com/aquarist-labs/s3gw-core',
     documentationURL: '',
   },
   {
