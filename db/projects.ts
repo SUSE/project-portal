@@ -436,14 +436,6 @@ export const PROJECTS = [
   {
     isEnable: true,
     tag: 'development',
-    name: 'Open Build Service Connector',
-    description: 'Visual Studio Code extension for integration with OBS',
-    repositoryURL: 'https://marketplace.visualstudio.com/items?itemName=SUSE.open-build-service-connector',
-    documentationURL: '',
-  },
-  {
-    isEnable: true,
-    tag: 'development',
     name: 'obs-img-utils',
     description: 'Utility to handle image pulls from OBS',
     repositoryURL: 'https://github.com/SUSE-Enceladus/obs-img-utils',
