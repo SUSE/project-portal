@@ -22,8 +22,8 @@ export const PROJECTS = [
     tag: 'storage',
     name: 'S3 Gateway',
     description: 'Easy-to-use Open Source and Cloud Native S3 service for use on Rancher\'s Kubernetes',
-    repositoryURL: 'https://github.com/aquarist-labs/s3gw-core',
-    documentationURL: '',
+    repositoryURL: 'https://github.com/aquarist-labs/s3gw',
+    documentationURL: 'https://s3gw-docs.readthedocs.io/en/latest/',
   },
   {
     isEnable: true,
