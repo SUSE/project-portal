@@ -101,5 +101,5 @@ export const FEATURED_PROJECTS = [
     repositoryURL: 'https://github.com/trento-project/trento',
     twitterURL: '',
     documentationURL: '',
-  }
+  },
 ]

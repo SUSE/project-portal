@@ -1,11 +1,10 @@
-
 export interface ProjectT {
-  isEnable: boolean,
-  tag: string,
-  name: string,
-  description: string,
-  repositoryURL: string,
-  documentationURL: string,
+  isEnable: boolean
+  tag: string
+  name: string
+  description: string
+  repositoryURL: string
+  documentationURL: string
 }
 
 export const PROJECTS = [
@@ -21,7 +20,7 @@ export const PROJECTS = [
     isEnable: true,
     tag: 'storage',
     name: 'S3 Gateway',
-    description: 'Easy-to-use Open Source and Cloud Native S3 service for use on Rancher\'s Kubernetes',
+    description: "Easy-to-use Open Source and Cloud Native S3 service for use on Rancher's Kubernetes",
     repositoryURL: 'https://github.com/aquarist-labs/s3gw',
     documentationURL: 'https://s3gw-docs.readthedocs.io/en/latest/',
   },
@@ -805,5 +804,5 @@ export const PROJECTS = [
 ]
 
 // Dynamicly generated tags
-const _tags = PROJECTS.map(ele => ele.tag)
+const _tags = PROJECTS.map((ele) => ele.tag)
 export const CATEGORIES = [...new Set(_tags)]

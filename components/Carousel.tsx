@@ -24,8 +24,7 @@ const responsive = {
 
 export const SponsorsCarousel = () => {
   return (
-    <Carousel className='py-8' responsive={responsive}   showDots={false}  autoPlay infinite
-    autoPlaySpeed={1000}>
+    <Carousel className='py-8' responsive={responsive} showDots={false} autoPlay infinite autoPlaySpeed={1000}>
       {sponsored.map((sponsor, index) => {
         return <Item {...sponsor} key={index} />
       })}
@@ -34,14 +33,12 @@ export const SponsorsCarousel = () => {
 }
 
 const Item = (prop) => {
-  const {img, description, repositoryURL} = prop
+  const { img, description, repositoryURL } = prop
   return (
     <div className='flex items-center relative group  h-full m-2 px-2 hover:scale-110 hover:cursor-pointer transition-all'>
-      <a href={repositoryURL} target="_blank" rel="noreferrer">
-      <img className='w-36 max-h-24' src={`./logos/${img}`} alt=''/>
+      <a href={repositoryURL} target='_blank' rel='noreferrer'>
+        <img className='w-36 max-h-24' src={`./logos/${img}`} alt='' />
       </a>
-
-      {/* <div className='absolute text-white z-50  group-hover:flex bg-black bg-opacity-20 -top-40 w-[300px] h-[200px]'>{description}</div> */}
     </div>
   )
 }

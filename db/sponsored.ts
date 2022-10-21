@@ -6,7 +6,7 @@ export const sponsored = [
     description: 'Enables Kubernetes and other cloud native technologies',
     repositoryURL: 'https://cncf.io/',
     documentationURL: '#',
-    img: 'cncf-color.svg'
+    img: 'cncf-color.svg',
   },
   {
     isEnable: true,
@@ -14,7 +14,7 @@ export const sponsored = [
     name: 'ELISA',
     repositoryURL: 'https://elisa.tech/ ',
     documentationURL: '',
-    img: 'logo_elisa.png'
+    img: 'logo_elisa.png',
   },
   {
     isEnable: true,
@@ -23,7 +23,7 @@ export const sponsored = [
     description: 'Transforming the Radio Access Network industry to open, intelligent, virtualized and fully interoperable RAN.',
     repositoryURL: 'https://o-ran.org/ ',
     documentationURL: '',
-    img: 'oran.svg'
+    img: 'oran.svg',
   },
   {
     isEnable: true,
@@ -32,7 +32,7 @@ export const sponsored = [
     description: 'An open technology plaform for the Software Defined Vehicle of the future.',
     repositoryURL: 'https://sdv.eclipse.org/',
     documentationURL: '',
-    img: 'eclipse-foundation-logo-white.svg'
+    img: 'eclipse-foundation-logo-white.svg',
   },
   {
     isEnable: true,
@@ -41,7 +41,7 @@ export const sponsored = [
     description: 'Delivering a cloud-native architecture for mixed-criticality automotive applications.',
     repositoryURL: 'https://soafee.io/ ',
     documentationURL: '',
-    img: 'soafee.svg'
+    img: 'soafee.svg',
   },
   {
     isEnable: true,
@@ -50,7 +50,7 @@ export const sponsored = [
     description: 'Open source solutions for financial services',
     repositoryURL: 'http://finos.org/',
     documentationURL: '',
-    img: 'finos-logo.png'
+    img: 'finos-logo.png',
   },
   {
     isEnable: true,
@@ -59,7 +59,7 @@ export const sponsored = [
     description: 'Linux Foundation',
     repositoryURL: 'http://linuxfoundation.org/',
     documentationURL: '',
-    img: 'LF_Logo_White.svg'
+    img: 'LF_Logo_White.svg',
   },
   {
     isEnable: true,
@@ -68,7 +68,7 @@ export const sponsored = [
     description: 'Gaia-X, initiated by Europe business politics, and science to create a federated and secure data infrastructure.',
     repositoryURL: 'https://gaia-x.eu/',
     documentationURL: '',
-    img: 'Gaia-X_Logo_svg_resized_1.svg'
+    img: 'Gaia-X_Logo_svg_resized_1.svg',
   },
   {
     isEnable: true,
@@ -77,7 +77,7 @@ export const sponsored = [
     description: 'Eclipse Foundation',
     repositoryURL: 'https:/eclipse.org',
     documentationURL: '',
-    img: 'eclipse-foundation-logo-white.svg'
+    img: 'eclipse-foundation-logo-white.svg',
   },
   {
     isEnable: true,
@@ -86,7 +86,7 @@ export const sponsored = [
     description: 'The Gnome Project',
     repositoryURL: 'http://gnome.org/',
     documentationURL: '',
-    img: 'gnome-logo.png'
+    img: 'gnome-logo.png',
   },
   {
     isEnable: true,
@@ -95,7 +95,7 @@ export const sponsored = [
     description: 'Cloud Native Network Automation',
     repositoryURL: 'http://nephio.org/',
     documentationURL: '',
-    img: 'Nephio_logo_colorblack_horizontal.svg'
+    img: 'Nephio_logo_colorblack_horizontal.svg',
   },
   {
     isEnable: true,
@@ -104,7 +104,7 @@ export const sponsored = [
     description: 'An open collection of standards and information to expose the benefits of non-volatile memory',
     repositoryURL: 'http://nvmexpress.org/',
     documentationURL: '',
-    img: 'nvm-express-web.png'
+    img: 'nvm-express-web.png',
   },
   {
     isEnable: true,
@@ -113,7 +113,7 @@ export const sponsored = [
     description: 'An open collection of standards and information to expose the benefits of non-volatile memory',
     repositoryURL: 'http://openacc.org/',
     documentationURL: '',
-    img: 'openacc_logo.svg'
+    img: 'openacc_logo.svg',
   },
   {
     isEnable: true,
@@ -122,7 +122,7 @@ export const sponsored = [
     description: 'Programming standard for parallel computing',
     repositoryURL: 'http://openhpc.community/',
     documentationURL: '',
-    img: 'HPC3.png'
+    img: 'HPC3.png',
   },
   {
     isEnable: true,
@@ -131,7 +131,7 @@ export const sponsored = [
     description: 'Host of open source projects for the mainframe.',
     repositoryURL: 'http://openmainframeproject.org/',
     documentationURL: '',
-    img: 'logo_openmainframe.png'
+    img: 'logo_openmainframe.png',
   },
   {
     isEnable: false,
@@ -140,7 +140,7 @@ export const sponsored = [
     description: 'API for multi-platform shared-memory parallel programming',
     repositoryURL: 'http://openmp.org/',
     documentationURL: '',
-    img: 'openmp-header-logo-100h.png'
+    img: 'openmp-header-logo-100h.png',
   },
   {
     isEnable: true,
@@ -149,7 +149,7 @@ export const sponsored = [
     description: 'Open Source Security Foundation',
     repositoryURL: 'http://openssf.org/',
     documentationURL: '',
-    img: 'openssf_white.svg'
+    img: 'openssf_white.svg',
   },
   {
     isEnable: true,
@@ -158,7 +158,7 @@ export const sponsored = [
     description: 'Open Source Business Alliance developing, building and using open source software.',
     repositoryURL: 'http://osb-alliance.de/',
     documentationURL: '',
-    img: 'osba-logo-claim.svg'
+    img: 'osba-logo-claim.svg',
   },
   {
     isEnable: true,
@@ -167,7 +167,7 @@ export const sponsored = [
     description: 'Peripheral Component Interconnect SIG responsible for specifying the PCI-X and PCI Express computer buses.',
     repositoryURL: 'http://pcisig.com/',
     documentationURL: '',
-    img: 'pcisig.webp'
+    img: 'pcisig.webp',
   },
   {
     isEnable: true,
@@ -176,7 +176,7 @@ export const sponsored = [
     description: 'An open standard collaboration for an open ISA',
     repositoryURL: 'http://riscv.org/',
     documentationURL: '',
-    img: 'riscv-color.svg'
+    img: 'riscv-color.svg',
   },
   {
     isEnable: true,
@@ -185,7 +185,7 @@ export const sponsored = [
     description: 'Unified Extensible Firmware Interface Forum',
     repositoryURL: 'http://uefi.org/',
     documentationURL: '',
-    img: 'uefi_logo_red_web.png'
+    img: 'uefi_logo_red_web.png',
   },
   {
     isEnable: true,
@@ -194,7 +194,6 @@ export const sponsored = [
     description: 'Defining an industry standard for IT quality',
     repositoryURL: 'http://zero-outage.com/',
     documentationURL: '',
-    img: 'ZOIS-logo.png'
+    img: 'ZOIS-logo.png',
   },
-
 ]
