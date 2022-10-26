@@ -10,6 +10,7 @@ export const sponsored = [
   },
   {
     isEnable: true,
+    description: 'Advancing Open Source Safety-Critical Systems',
     tag: 'Edge',
     name: 'ELISA',
     repositoryURL: 'https://elisa.tech/ ',

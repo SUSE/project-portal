@@ -25,7 +25,7 @@ const responsive = {
 export const SponsorsCarousel = () => {
   return (
     <Carousel className='py-8' responsive={responsive} showDots={false} autoPlay infinite autoPlaySpeed={1000}>
-      {sponsored.slice(0,2).map((sponsor, index) => {
+      {sponsored.map((sponsor, index) => {
         return <Item {...sponsor} key={index} />
       })}
     </Carousel>
