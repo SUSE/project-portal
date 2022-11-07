@@ -59,17 +59,6 @@ export const FEATURED_PROJECTS = [
     documentationURL: '',
   },
   {
-    color: '#D13207',
-    logo: 'hypper.svg',
-    tag: 'infrastructure',
-    name: 'Hypper',
-    description: 'A dependency-aware package manager built on Helm.',
-    href: 'https://hypper.io/',
-    repositoryURL: 'https://github.com/rancher-sandbox/hypper',
-    twitterURL: '',
-    documentationURL: '',
-  },
-  {
     color: '#004D93',
     logo: 'epinio.svg',
     tag: 'infrastructure',
