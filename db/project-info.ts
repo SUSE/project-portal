@@ -7,17 +7,17 @@ export const PROJECT_CONFIGURATION = {
     social: [
       {
         url: 'https://www.facebook.com/SUSEWorldwide',
-        icon: FacebookSVG
+        icon: FacebookSVG,
       },
       {
         url: 'https://www.twitter.com/SUSE',
-        icon: TwitterSVG
+        icon: TwitterSVG,
       },
       {
         url: 'https://www.linkedin.com/company/suse',
-        icon: LinkedinSVG
+        icon: LinkedinSVG,
       },
-    ]
+    ],
   },
   projectFooterLinks: [
     {
@@ -48,5 +48,5 @@ export const PROJECT_CONFIGURATION = {
       title: 'Contact Us',
       href: 'https://www.suse.com/contact/',
     },
-  ]
+  ],
 }
