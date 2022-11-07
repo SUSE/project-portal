@@ -76,7 +76,7 @@ export const FEATURED_PROJECTS = [
     name: 'Opni',
     description: 'AI/ML-driven anomaly detection for Kubernetes.',
     href: 'https://opni.io/',
-    repositoryURL: 'http://github.com/rancher/opni',
+    repositoryURL: 'https://github.com/rancher/opni',
     twitterURL: '',
     documentationURL: '',
   },

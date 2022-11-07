@@ -299,7 +299,7 @@ export default function Policy() {
 
         <p>
           SUSE is a founding member of the{' '}
-          <a className='text-blue-500 hover:cursor-pointer' href='http://www.openinventionnetwork.com/'>
+          <a className='text-blue-500 hover:cursor-pointer' href='https://openinventionnetwork.com/'>
             Open Invention Network (OIN)
           </a>
           . We are committed to the non-aggression patent pool and to reducing patent-induced threats to the Linux ecosystem.
