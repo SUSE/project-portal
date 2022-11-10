@@ -48,6 +48,17 @@ export const FEATURED_PROJECTS = [
     documentationURL: '',
   },
   {
+    color: '#D13207',
+    logo: 'neuvector.png',
+    tag: 'security',
+    name: 'NeuVector',
+    description: 'NeuVector delivers Full Lifecycle Container Security',
+    href: 'https://neuvector.com/products/open-source/',
+    repositoryURL: 'https://github.com/neuvector',
+    twitterURL: 'https://twitter.com/SUSE',
+    documentationURL: 'https://open-docs.neuvector.com/',
+  },
+  {
     color: '#BB2A46',
     logo: 'kubewarden.png',
     tag: 'infrastructure',
