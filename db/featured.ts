@@ -48,6 +48,17 @@ export const FEATURED_PROJECTS = [
     documentationURL: '',
   },
   {
+    color: '#BBBF30',
+    logo: 'k3s.svg',
+    tag: 'kubernetes',
+    name: 'K3S',
+    description: 'Certified Lightweight Kubernetes designed for the Edge and IoT.',
+    href: 'https://k3s.io/',
+    repositoryURL: 'https://github.com/k3s-io/k3s',
+    twitterURL: '',
+    documentationURL: 'https://docs.k3s.io/',
+  },
+  {
     color: '#BB2A46',
     logo: 'kubewarden.png',
     tag: 'infrastructure',
