@@ -91,6 +91,15 @@ export const sponsored = [
   },
   {
     isEnable: true,
+    tag: 'Infrastructure',
+    name: 'KDE Project',
+    description: 'The KDE Project',
+    repositoryURL: 'https://www.kde.org/',
+    documentationURL: '',
+    img: 'kde-logo.png',
+  },
+  {
+    isEnable: true,
     tag: 'Edge',
     name: 'Nephio',
     description: 'Cloud Native Network Automation',
