@@ -132,31 +132,31 @@ export default function Policy() {
 
 <p>SUSE considers itself as a part of the global open source community. When we intend to improve or fix bugs in open source projects, we contribute our modifications to upstream as early as possible. SUSE only contributes to upstream projects that use licenses compatible with the open source license definition.</p>
 
-<h4 class="font-medium" id="contributing-patches">Contributing Patches</h4>
+<h4 className="font-medium" id="contributing-patches">Contributing Patches</h4>
 
 <p>When contributing to open source projects, follow the guidelines of those upstream projects. Respect their governance model and contribution policies. Use the license of the upstream project for your contribution provided it is a license that is compatible with the open source license definition.</p>
 
-<h4 class="font-medium" id="contributing-non-code">Contributing Non-Code</h4>
+<h4 className="font-medium" id="contributing-non-code">Contributing Non-Code</h4>
 
 <p>There are many ways to contribute to open source projects besides writing code, writing documentation, reporting bugs, helping users, discussing development and more. Apply the spirit of the guideline here as well. Be open, respectful, and collaborate. Use the agreed/accepted license of the upstream project also for non-code contributions provided it is a license that is compatible with the open source license definition.</p>
 
-<h4 class="font-medium" id="contributor-licensing-agreements">Contributor Licensing Agreements</h4>
+<h4 className="font-medium" id="contributor-licensing-agreements">Contributor Licensing Agreements</h4>
 
 <p>Some projects require a contributor licensing agreement (CLA) which assigns certain rights to the governance body of the project. Before you can contribute to a project which requires a CLA, you need to make sure that SUSE has signed a corporate agreement for the project. SUSE already has agreements in place for many organizations, for example Free Software Foundation, OpenStack, Cloud Foundry, Cloud Native Computing Foundation. If the project requires a CLA, contact your manager to establish the appropriate course of action before contributing. Seek SUSE legal assistance to sign a CLA when necessary.</p>
 
-<h4 class="font-medium" id="developer-certificate-of-origin">Developer Certificate of Origin</h4>
+<h4 className="font-medium" id="developer-certificate-of-origin">Developer Certificate of Origin</h4>
 
 <p>Some projects require a <a href="https://developercertificate.org/">Developer Certificate of Origin (DCO)</a>. This is typically done by adding a <code>Signed-off-by</code> trailer in the commit message to certify that the committer has the right to do the contribution and to consent to publish it.</p>
 
 <p>If a project requires a DCO make sure that you are meeting its requirements and follow the upstream guidelines to add your DCO to your contributions.</p>
 
-<h4 class="font-medium" id="respect">Respect</h4>
+<h4 className="font-medium" id="respect">Respect</h4>
 
 <p>Although technical in nature, the open source community is first and foremost about people. Treat other people with respect. Be kind, be open, respect the culture of the community you are interacting with and be aware of the diversity of people in that community. Be aware that, particularly in electronic communication, you might misunderstand or misinterpret what others are saying or meaning. The reverse is also true.</p>
 
 <p>Follow any codes of conduct and set a high bar for your own behavior. See the <a href="https://en.opensuse.org/openSUSE:Guiding_principles">openSUSE Guiding Principles</a> as an example of how we envision the community for one of our main projects.</p>
 
-<h4 class="font-medium" id="ai-pair-programming">AI pair programming</h4>
+<h4 className="font-medium" id="ai-pair-programming">AI pair programming</h4>
 
 <p>AI pair programming must not be used.</p>
 
@@ -180,11 +180,11 @@ export default function Policy() {
 
 <p>We typically don’t use contributor agreements for our own projects, but instead rely on the open source licenses providing the necessary terms using the “inbound=outbound” model. This means that contributions are made under the same license under which the project is released.</p>
 
-<h4 class="font-medium" id="license-for-new-projects">License for new projects</h4>
+<h4 className="font-medium" id="license-for-new-projects">License for new projects</h4>
 
 <p>We are using OSI Approved licenses, any other case must be granted an explicit exception.</p>
 
-<h4 class="font-medium" id="new-projects-licensing-recommendation">New Projects licensing recommendation</h4>
+<h4 className="font-medium" id="new-projects-licensing-recommendation">New Projects licensing recommendation</h4>
 
 <p>The following are SUSE’s preferred licenses for new contributions:
 * Apache 2.0 (code)
@@ -203,7 +203,7 @@ export default function Policy() {
 
 <p>When consuming open source in anything we distribute to others we follow the guidelines below.</p>
 
-<h4 class="font-medium" id="managing-source-code">Managing Source Code</h4>
+<h4 className="font-medium" id="managing-source-code">Managing Source Code</h4>
 
 <p>For all the software we redistribute we keep the source code. This is necessary to comply with the open source software licenses, the spirit of the open source model, and to create a bill of materials for our products which lists all components including dependencies. Bill of Materials should include names, versions, licenses, and upstream URLs for all components.</p>
 
@@ -215,7 +215,7 @@ export default function Policy() {
 
 <p>We advise contributors to study the contribution guidelines of the particular project and become familiar with project structure, its upstream and related processes.</p>
 
-<h4 class="font-medium" id="factory-first">Factory First</h4>
+<h4 className="font-medium" id="factory-first">Factory First</h4>
 
 <p>“Factory First” means that we use openSUSE Factory as an intermediate upstream. “Factory First” is used for select SUSE products. It reduces maintenance effort and leverages the community.</p>
 
@@ -227,7 +227,7 @@ export default function Policy() {
 
 <p>Choosing “Factory First” includes following the <a href="https://en.opensuse.org/openSUSE:Factory_development_model">openSUSE Factory development model</a>, which is implementation defined outside the scope of this policy.</p>
 
-<h4 class="font-medium" id="legal-review">Legal Review</h4>
+<h4 className="font-medium" id="legal-review">Legal Review</h4>
 
 <p>SUSE conducts a legal review of the code we distribute in order to make sure we have the rights to distribute the code and that there are no legal issues such as license incompatibilities. If you follow the Factory First approach and manage your code in the build service the legal review is automatically part of the process.</p>
 
