@@ -125,7 +125,7 @@ export const PROJECTS = [
     tag: 'security',
     name: 'ComplianceAsCode',
     description: '',
-    repositoryURL: 'github.com/SUSE/ComplianceAsCodeContent/',
+    repositoryURL: 'https://github.com/SUSE/ComplianceAsCodeContent/',
     documentationURL: '',
   },
   {
