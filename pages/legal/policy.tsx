@@ -186,12 +186,16 @@ export default function Policy() {
 
 <h4 className="font-medium" id="new-projects-licensing-recommendation">New Projects licensing recommendation</h4>
 
-<p>The following are SUSE’s preferred licenses for new contributions:
-* Apache 2.0 (code)
-* CC BY-SA 4.0 (documentation and artwork)</p>
+<p className="font-light" >The following are SUSE’s preferred licenses for new contributions:</p>
+<ul>
+<li>Apache 2.0 (code)</li>
+<li>CC BY-SA 4.0 (documentation and artwork)</li>
+</ul>
 
-<p>For projects with a copyleft context:
-* GPL-2.0-or-later</p>
+<p className="font-light">For projects with a copyleft context:</p>
+<ul>
+<li>GPL-2.0-or-later</li>
+</ul>
 
 <p>If not following recommended license category choices a reasonable explanation for the non-standard license selection must be provided to legal@suse.de.</p>
 
