@@ -825,6 +825,14 @@ export const PROJECTS = [
     repositoryURL: 'https://github.com/rear/rear',
     documentationURL: '#',
   },
+  {
+    isEnable: true,
+    tag: 'security',
+    name: 'NeuVector',
+    description: 'Full Lifecycle Container Security Platform',
+    repositoryURL: 'https://github.com/neuvector/neuvector',
+    documentationURL: 'https://open-docs.neuvector.com/',
+  },
 ]
 
 // Dynamicly generated tags
