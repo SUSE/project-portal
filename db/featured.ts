@@ -98,7 +98,7 @@ export const FEATURED_PROJECTS = [
     name: 'Trento',
     description: 'An open cloud-native web console to manage OS-related tasks for SAP applications.',
     href: 'https://www.trento-project.io/',
-    repositoryURL: 'https://github.com/trento-project/trento',
+    repositoryURL: 'https://github.com/trento-project',
     twitterURL: '',
     documentationURL: '',
   },
