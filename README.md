@@ -5,8 +5,8 @@ To add your project, create an issue at https://github.com/SUSE/project-portal/i
 
 ### Opening a PR
 To add new content to the list of projects/products, please follow the instructions below:
-- Duplicate one of the items array under `/db/projects.js` and fill it with your information.
-- Create a new PR with your changes, one of the repository owners will review it before mergin.
+- Duplicate one of the items array under `/db/projects.ts` and fill it with your information.
+- Create a new PR with your changes, one of the repository owners will review it before merging.
 
 
 ## 💠 Getting Started
@@ -28,7 +28,7 @@ npm run dev
 yarn dev
 ```
 
-Project configuration can be found under `/db/project-info.js`. You'll need to fill it with your information and the changes would be reflected (live reload) at http://localhost:3000
+Project configuration can be found under `/db/project-info.ts`. You'll need to fill it with your information and the changes would be reflected (live reload) at http://localhost:3000
 
 ---
 
