@@ -55,7 +55,7 @@ export const FEATURED_PROJECTS = [
     description: 'NeuVector delivers Full Lifecycle Container Security',
     href: 'https://neuvector.com/products/open-source/',
     repositoryURL: 'https://github.com/neuvector',
-    twitterURL: 'https://twitter.com/SUSE',
+    twitterURL: '',
     documentationURL: 'https://open-docs.neuvector.com/',
   },
   {
