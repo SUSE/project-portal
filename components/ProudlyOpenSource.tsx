@@ -33,8 +33,8 @@ export const SUSEandRancher = () => {
         <p className='text-gray-800 text-center'>
           Ask questions and learn more about these projects in our community. <br />
         </p>
-        <a className='mx-auto text-black bg-primary hover:bg-opacity-70 px-4 py-1 hover:border-primary font-medium' href='https://community.suse.com/' target='_blank' rel='noreferrer'>
-          Join the SUSE & Rancher Community
+        <a className='mx-auto text-black bg-primary hover:bg-opacity-70 px-4 py-1 hover:border-primary font-medium' href='https://www.suse.com/community/' target='_blank' rel='noreferrer'>
+          Find out more!
         </a>
       </div>
     </div>
