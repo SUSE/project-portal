@@ -1,7 +1,7 @@
 import { HandLeafSVG, SUSEandRancherSVG } from '@/assets/images'
 import Link from 'next/link'
 
-export const ProdudlyOpenSource = () => {
+export const ProudlyOpenSource = () => {
   return (
     <div className='flex flex-row-2 gap-2 md:gap-4 justify-start mb-20'>
       <div className='flex flex-col gap-2'>
