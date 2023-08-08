@@ -1,7 +1,7 @@
 import { AllProjects } from '@/components/AllProjects'
 import { SponsorsCarousel } from '@/components/Carousel'
 import { FeaturedProject } from '@/components/FeaturedProjects'
-import { ProudlyOpenSource, SUSEandRancher } from '@/components/ProudlyOpenSource'
+import { ProudlyOpenSource, SUSECommunity } from '@/components/ProudlyOpenSource'
 import { PROJECT_CONFIGURATION } from '@/db/project-info'
 import Head from 'next/head'
 
@@ -50,7 +50,7 @@ export default function Home() {
 
         <div className='grid grid-cols-1 md:grid-cols-2 md:gap-32 md:px-20 align-items-center align-middle'>
           <ProudlyOpenSource />
-          <SUSEandRancher />
+          <SUSECommunity />
         </div>
 
         <hr />

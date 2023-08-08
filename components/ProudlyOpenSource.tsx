@@ -1,4 +1,4 @@
-import { HandLeafSVG, SUSEandRancherSVG } from '@/assets/images'
+import { HandLeafSVG, SUSECommunitySVG } from '@/assets/images'
 import Link from 'next/link'
 
 export const ProudlyOpenSource = () => {
@@ -23,12 +23,12 @@ export const ProudlyOpenSource = () => {
   )
 }
 
-export const SUSEandRancher = () => {
+export const SUSECommunity = () => {
   return (
     <div className='flex flex-row-2 gap-2 md:gap-4 justify-center '>
       <div className='flex flex-col gap-2 mb-20'>
         <span className='text-center mx-auto'>
-          <SUSEandRancherSVG />
+          <SUSECommunitySVG />
         </span>
         <p className='text-gray-800 text-center'>
           Ask questions and learn more about these projects in our community. <br />
