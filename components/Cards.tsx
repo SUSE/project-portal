@@ -41,7 +41,7 @@ export const FeaturedProjectCard = ({ color, logo, tag, name, description, href,
         {twitterURL && (
           <a className='group flex flex-col justify-center place-items-center align-middle gap-1 font-medium' href={twitterURL} target='_blank' rel='noreferrer'>
             <TwitterSVG className='w-5 h-5 fill-current text-gray-400 group-hover:text-primary' />
-            <span className='text-[10px] place-self-center text-gray-500 group-hover:text-primary hover:scale-105'>X</span>
+            <span className='text-[10px] place-self-center text-gray-500 group-hover:text-primary hover:scale-105'>X&nbsp;platform</span>
           </a>
         )}
       </div>
