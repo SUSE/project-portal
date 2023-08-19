@@ -10,7 +10,7 @@ export const PROJECT_CONFIGURATION = {
         icon: FacebookSVG,
       },
       {
-        url: 'https://www.twitter.com/SUSE',
+        url: 'https://www.x.com/SUSE',
         icon: TwitterSVG,
       },
       {
@@ -22,7 +22,7 @@ export const PROJECT_CONFIGURATION = {
   projectFooterLinks: [
     {
       title: 'Careers',
-      href: 'https://www.suse.com/company/careers/',
+      href: 'https://jobs.suse.com/',
     },
     {
       title: 'Legal',
@@ -31,10 +31,6 @@ export const PROJECT_CONFIGURATION = {
     {
       title: 'Anti-slavery',
       href: 'https://www.suse.com/legal/anti-slavery/',
-    },
-    {
-      title: 'Feedback',
-      href: 'https://www.suse.com/#',
     },
     {
       title: 'About',

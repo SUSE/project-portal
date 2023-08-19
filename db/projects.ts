@@ -833,6 +833,14 @@ export const PROJECTS = [
     repositoryURL: 'https://github.com/neuvector/neuvector',
     documentationURL: 'https://open-docs.neuvector.com/',
   },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'SLE BCI',
+    description: 'SUSE maintained containers that are redistributable, open source, secure and dependable.',
+    repositoryURL: 'https://github.com/SUSE/BCI-dockerfile-generator/',
+    documentationURL: 'https://opensource.suse.com/bci-docs/',
+  },
 ]
 
 // Dynamicly generated tags

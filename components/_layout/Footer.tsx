@@ -41,11 +41,17 @@ export const Footer = () => {
             </p>
           </div>
           <div className='flex text-xs gap-8'>
-            <p>© 2021 SUSE, All Rights Reserved</p>
+            <p>© 2023 SUSE, All Rights Reserved</p>
             {/* <p>
               Support:
               <a className='hover:underline' href='https://www.suse.com/support/handbook/#open' target='_blank' rel="noreferrer" > Open a Support Case</a>
             </p> */}
+          </div>
+          <div className='flex text-xs gap-8'>
+            <p><a className='hover:underline' href='https://www.suse.com/company/legal/' target='_blank' rel='noreferrer'>
+                Privacy and Cookie Policy
+              </a>
+            </p>
           </div>
         </div>
       </div>
