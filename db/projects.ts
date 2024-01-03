@@ -17,7 +17,7 @@ export const PROJECTS = [
     documentationURL: '#',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'storage',
     name: 'S3 Gateway',
     description: "Easy-to-use Open Source and Cloud Native S3 service for use on Rancher's Kubernetes",
@@ -177,7 +177,7 @@ export const PROJECTS = [
     documentationURL: '',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'AI/ML',
     name: 'FuseML',
     description: 'Orchestration engine for MLOps',
@@ -337,7 +337,7 @@ export const PROJECTS = [
     documentationURL: '',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'operating-systems',
     name: 'Kubic',
     description: 'Certified Kubernetes distribution',
@@ -497,7 +497,7 @@ export const PROJECTS = [
     documentationURL: '',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'AI/ML',
     name: 'Phoebe',
     description: 'Auto-tuning and self-healing for artificial intelligence on Linux',
@@ -553,7 +553,7 @@ export const PROJECTS = [
     documentationURL: '',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'development',
     name: 'Rio',
     description: 'Application deployment engine for Kubernetes',
