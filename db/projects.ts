@@ -161,7 +161,7 @@ export const PROJECTS = [
     documentationURL: '',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'development',
     name: 'Epinio',
     description: 'Application development engine for Kubernetes',
@@ -489,7 +489,7 @@ export const PROJECTS = [
     documentationURL: '',
   },
   {
-    isEnable: true,
+    isEnable: false,
     tag: 'operations',
     name: 'Opni',
     description: 'AIOps for Kubernetes with logging and monitoring',
