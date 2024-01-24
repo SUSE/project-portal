@@ -70,17 +70,6 @@ export const FEATURED_PROJECTS = [
     documentationURL: '',
   },
   {
-    color: '#004D93',
-    logo: 'epinio.svg',
-    tag: 'infrastructure',
-    name: 'Epinio',
-    description: 'An opinionated platform that runs on Kubernetes and takes you from code to URL in one step.',
-    href: 'https://epinio.io/',
-    repositoryURL: 'https://github.com/epinio',
-    twitterURL: '',
-    documentationURL: '',
-  },
-  {
     color: '#045209',
     logo: 'sle_bci.png',
     tag: 'development',
