@@ -18,7 +18,7 @@ For development, please run the following commands:
 cp .template.env .env.development.local
 ```
 
-\*Requieres [Node](https://nodejs.org/en/) installed.
+\*Requires [Node](https://nodejs.org/en/) installed.
 
 ```bash
 npm install
