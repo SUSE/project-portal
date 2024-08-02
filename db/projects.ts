@@ -82,6 +82,14 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
+    tag: 'development',
+    name: 'clang-extract',
+    description: 'A tool to extract code content from source files using the clang and LLVM infrastructure',
+    repositoryURL: 'https://github.com/SUSE/clang-extract',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
     tag: 'operations',
     name: 'cloud-init',
     description: 'Instance initialization code',
@@ -318,6 +326,14 @@ export const PROJECTS = [
     name: 'kiwi',
     description: 'OS image and appliance builder',
     repositoryURL: 'https://github.com/OSInside/kiwi',
+    documentationURL: '',
+  },
+  {
+    isEnable: true,
+    tag: 'development',
+    name: 'klp-build',
+    description: 'The kernel livepatching creation tool',
+    repositoryURL: 'https://github.com/SUSE/klp-build',
     documentationURL: '',
   },
   {
