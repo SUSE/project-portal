@@ -170,14 +170,6 @@ export const PROJECTS = [
   },
   {
     isEnable: true,
-    tag: 'development',
-    name: 'Epinio',
-    description: 'Application development engine for Kubernetes',
-    repositoryURL: 'https://epinio.io',
-    documentationURL: '',
-  },
-  {
-    isEnable: true,
     tag: 'operations',
     name: 'Fleet',
     description: 'A GitOps container management and deployment engine',
@@ -502,14 +494,6 @@ export const PROJECTS = [
     name: 'openSUSE Tumbleweed',
     description: 'Rolling release Linux distribution',
     repositoryURL: 'https://en.opensuse.org/Portal:Tumbleweed',
-    documentationURL: '',
-  },
-  {
-    isEnable: true,
-    tag: 'operations',
-    name: 'Opni',
-    description: 'AIOps for Kubernetes with logging and monitoring',
-    repositoryURL: 'https://opni.io',
     documentationURL: '',
   },
   {
