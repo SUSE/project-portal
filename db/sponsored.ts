@@ -74,11 +74,11 @@ export const sponsored = [
   {
     isEnable: true,
     tag: 'Umbrella',
-    name: 'Eclipse',
-    description: 'Eclipse Foundation',
-    repositoryURL: 'https:/eclipse.org',
+    name: 'margo',
+    description: 'Margo',
+    repositoryURL: 'https://margo.org',
     documentationURL: '',
-    img: 'eclipse-foundation-logo-white.svg',
+    img: 'margo_secondary_black.svg',
   },
   {
     isEnable: true,
