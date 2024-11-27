@@ -91,4 +91,15 @@ export const FEATURED_PROJECTS = [
     twitterURL: '',
     documentationURL: '',
   },
+  {
+    color: '#83D6AE',
+    logo: 'k3s.svg',
+    tag: 'infrastructure',
+    name: 'K3s',
+    description: 'K3s is a fully compliant and certified Kubernetes distribution built for IoT & Edge computing',
+    href: 'https://k3s.io/',
+    repositoryURL: 'https://github.com/k3s-io/k3s',
+    twitterURL: '',
+    documentationURL: 'https://docs.k3s.io/',
+  },
 ]
