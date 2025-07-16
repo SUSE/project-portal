@@ -31,17 +31,16 @@ export const Footer = () => {
 
         <div className='flex justify-between align-center p-8 w-full'>
           <div className='flex text-xs gap-8'>
-            <p>Sales Number: 49-911-740-53-0</p>
             <p>
               Support:
               <a className='hover:underline' href='https://www.suse.com/support/handbook/#open' target='_blank' rel='noreferrer'>
                 {' '}
-                Open a Support Case
+                <b>Open a Support Case</b>
               </a>
             </p>
           </div>
           <div className='flex text-xs gap-8'>
-            <p>© 2023 SUSE, All Rights Reserved</p>
+            <p>© 2025 ©SUSE, All Rights Reserved</p>
             {/* <p>
               Support:
               <a className='hover:underline' href='https://www.suse.com/support/handbook/#open' target='_blank' rel="noreferrer" > Open a Support Case</a>
@@ -49,7 +48,11 @@ export const Footer = () => {
           </div>
           <div className='flex text-xs gap-8'>
             <p><a className='hover:underline' href='https://www.suse.com/company/legal/' target='_blank' rel='noreferrer'>
-                Privacy and Cookie Policy
+                Privacy Policy
+              </a>
+            </p>
+            <p><a className='hover:underline' href='https://www.suse.com/company/legal/cookies-policy/' target='_blank' rel='noreferrer'>
+                Cookie Policy
               </a>
             </p>
           </div>

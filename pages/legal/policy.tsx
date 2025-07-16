@@ -294,7 +294,7 @@ export default function Policy() {
 
 <hr />
 
-<p><em>Copyright 2023 SUSE LLC. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</em></p>
+<p><em>Copyright 2024 SUSE LLC. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</em></p>
 </main>
 </div>
 
