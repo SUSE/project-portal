@@ -66,8 +66,8 @@ export const FEATURED_PROJECTS = [
     description: 'Kubernetes admission control using WebAssembly (WASM).',
     href: 'https://kubewarden.io/',
     repositoryURL: 'https://github.com/kubewarden',
-    twitterURL: 'https://twitter.com/kubewarden',
-    documentationURL: '',
+    twitterURL: '',
+    documentationURL: 'https://docs.kubewarden.io/',
   },
   {
     color: '#045209',
