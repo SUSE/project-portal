@@ -33,7 +33,7 @@ export const sponsored = [
     description: 'Trusted hub to develop, manage, and scale open technology projects globally',
     repositoryURL: 'https://linuxfoundation.eu/',
     documentationURL: '',
-    img: 'LF_Logo_White.svg',
+    img: 'LF_Logo_Europe.jpeg',
   },
   {
     isEnable: true,
