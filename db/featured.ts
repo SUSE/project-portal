@@ -89,7 +89,7 @@ export const FEATURED_PROJECTS = [
     href: 'https://www.trento-project.io/',
     repositoryURL: 'https://github.com/trento-project',
     twitterURL: '',
-    documentationURL: '',
+    documentationURL: 'https://www.trento-project.io/docs/',
   },
   {
     color: '#83D6AE',
