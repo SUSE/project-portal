@@ -670,7 +670,7 @@ export const PROJECTS = [
     name: 'Trento',
     description: 'Console for SAP applications',
     repositoryURL: 'https://trento-project.io',
-    documentationURL: '',
+    documentationURL: 'https://www.trento-project.io/docs/',
   },
   {
     isEnable: true,
