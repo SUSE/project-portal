@@ -71,9 +71,9 @@ export const FEATURED_PROJECTS = [
   },
   {
     color: '#045209',
-    logo: 'sle_bci.png',
+    logo: 'suse_linux_bci.png',
     tag: 'development',
-    name: 'SLE BCI',
+    name: 'SUSE Linux BCI',
     description: 'SUSE maintained containers that are redistributable, open source, secure and dependable.',
     href: 'https://registry.suse.com/',
     repositoryURL: 'https://github.com/SUSE/BCI-dockerfile-generator',
